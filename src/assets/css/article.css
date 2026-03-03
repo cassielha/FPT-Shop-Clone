@@ -1,0 +1,269 @@
+.Button_redPrimary {
+    background-color: var(--red-red-7)
+}
+
+.Button_redPrimary:hover {
+    background-color: var(--red-red-8)
+}
+
+.BannerTheme_sliderWrap {
+    height: 180px;
+    position: relative
+}
+
+@media (min-width:768px) {
+    .BannerTheme_sliderWrap {
+        height: 370px
+    }
+}
+
+.BannerTheme_sliderWrap:hover .BannerTheme_sliderControl button {
+    --tw-translate-x: 0rem;
+    --tw-translate-y: 0rem;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    opacity: 1
+}
+
+.BannerTheme_sliderControl,
+.BannerTheme_sliderWrap:hover .BannerTheme_sliderControl button {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.BannerTheme_sliderControl {
+    display: none;
+    height: 0;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 2;
+    --tw-translate-x: -50%;
+    --tw-translate-y: -50%;
+    justify-content: space-between
+}
+
+@media (min-width:768px) {
+    .BannerTheme_sliderControl {
+        margin-inline: auto
+    }
+
+    @media (min-width:320px) and (max-width:768px) {
+        .BannerTheme_sliderControl {
+            max-width: 768px;
+            overflow: hidden;
+            padding-inline: var(--container-padding, 1rem)
+        }
+    }
+
+    @media (min-width:769px) {
+        .BannerTheme_sliderControl {
+            padding-inline: var(--container-padding, 1.25rem);
+            width: var(--container-content, 80rem)
+        }
+    }
+}
+
+@media (min-width:769px) {
+    .BannerTheme_sliderControl {
+        display: flex
+    }
+}
+
+.BannerTheme_sliderControl.BannerTheme_activeFirst {
+    justify-content: flex-end
+}
+
+.BannerTheme_sliderControl.BannerTheme_activeFirst button:first-child,
+.BannerTheme_sliderControl.BannerTheme_activeLast button:last-child {
+    display: none
+}
+
+.BannerTheme_sliderControl button {
+    margin-left: 1.5rem;
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+@media (min-width:768px) {
+    .BannerTheme_sliderControl button {
+        margin: 0;
+        --tw-translate-x: 2.5rem;
+        --tw-scale-x: 0.7;
+        --tw-scale-y: 0.7;
+        opacity: 0;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+    }
+}
+
+.BannerTheme_sliderControl button:last-child {
+    margin-right: 1.5rem;
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+@media (min-width:768px) {
+    .BannerTheme_sliderControl button:last-child {
+        margin: 0;
+        --tw-translate-x: -2.5rem;
+        --tw-scale-x: 0.7;
+        --tw-scale-y: 0.7;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+    }
+}
+
+.BannerTheme_sliderControl button:hover {
+    --tw-translate-x: 0rem;
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-delay: 0s;
+    transition-duration: .15s;
+    transition-duration: .6s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-timing-function: ease
+}
+
+
+.BannerTheme_sliderItem {
+    height: 100%;
+    opacity: 0;
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    visibility: visible;
+    z-index: 0
+}
+
+.BannerTheme_sliderBg,
+.BannerTheme_sliderItem {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.BannerTheme_sliderBg {
+    height: 100vh;
+    pointer-events: none
+}
+
+.BannerTheme_sliderItem.BannerTheme_fadeIn {
+    opacity: 1;
+    z-index: 1
+}
+
+.BannerTheme_navigation {
+    bottom: .625rem;
+    display: flex;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    --tw-translate-x: -50%;
+    align-items: center;
+    background-color: var(--black-opacity-50);
+    border-radius: 100px;
+    justify-content: center;
+    padding: .125rem .375rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.BannerTheme_navigation li {
+    background-color: var(--white-opacity-50);
+    border-radius: 9999px;
+    height: .375rem;
+    margin: .25rem;
+    padding-left: .125rem;
+    padding-right: .125rem;
+    transition-delay: 0s;
+    transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-timing-function: ease;
+    width: .375rem
+}
+
+.BannerTheme_navigation li.BannerTheme_navigationActive {
+    width: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity))
+}
+
+.Button_whitePrimary {
+    background-color: var(--neutral-white);
+    color: var(--black-opacity-100)
+}
+
+.Button_whitePrimary:hover {
+    background-color: var(--neutral-gray-1)
+}
+
+.Button_btnIcon.Button_btnVeryLarge {
+    height: 3rem;
+    padding: .625rem;
+    width: 3rem
+}
+
+.Button_btnIcon.Button_btnLarge {
+    height: 2.75rem;
+    padding: .625rem;
+    width: 2.75rem
+}
+
+.Button_btnIcon.Button_btnMedium {
+    height: 2.5rem;
+    padding: .5rem;
+    width: 2.5rem
+}
+
+.Button_btnIcon.Button_btnSmall {
+    height: 2rem;
+    padding: .5rem;
+    width: 2rem
+}
+
+.Button_btnIcon.Button_btnVerySmall {
+    height: 1.75rem;
+    padding: .375rem;
+    width: 1.75rem
+}
+
+.Button_btnIcon {
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem
+}
+
+.Button_btnIconSquare svg,
+.Button_btnIcon svg {
+    margin: 0
+}
+
+@media (min-width:768px) {
+    .HomeCard_homeCard {
+        background-color: var(--neutral-white);
+        border-radius: 1rem;
+        padding: 1.25rem
+    }
+}
+
+.BgFrameResponsive_frameWrapper {
+    display: flex;
+    justify-content: center;
+    position: relative
+}
+
+.BgFrameResponsive_frame {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}

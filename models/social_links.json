@@ -1,0 +1,28 @@
+{
+  "social_links": [
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/FPTShopOnline",
+      "icon_srcset": "https://cdn2.fptshop.com.vn/svg/facebook_icon_8543190720.svg 1x, https://cdn2.fptshop.com.vn/svg/facebook_icon_8543190720.svg 2x",
+      "icon_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/facebook_icon_8543190720.svg"
+    },
+    {
+      "name": "Zalo",
+      "url": "https://zalo.me/2659487666103055748",
+      "icon_srcset": "https://cdn2.fptshop.com.vn/svg/zalo_icon_8cbef61812.svg 1x, https://cdn2.fptshop.com.vn/svg/zalo_icon_8cbef61812.svg 2x",
+      "icon_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/zalo_icon_8cbef61812.svg"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@FPTShop_",
+      "icon_srcset": "https://cdn2.fptshop.com.vn/svg/youtube_icon_b492d61ba5.svg 1x, https://cdn2.fptshop.com.vn/svg/youtube_icon_b492d61ba5.svg 2x",
+      "icon_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/youtube_icon_b492d61ba5.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@fptshop.official",
+      "icon_srcset": "https://cdn2.fptshop.com.vn/svg/tiktok_icon_faabbeeb61.svg 1x, https://cdn2.fptshop.com.vn/svg/tiktok_icon_faabbeeb61.svg 2x",
+      "icon_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/tiktok_icon_faabbeeb61.svg"
+    }
+  ]
+}

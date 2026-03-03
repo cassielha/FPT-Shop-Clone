@@ -1,0 +1,19 @@
+{
+  "hotlines": [
+    {
+      "title": "Tư vấn mua hàng (Miễn phí)",
+      "phone": "1800.6601",
+      "note": "Nhánh 1"
+    },
+    {
+      "title": "Hỗ trợ kỹ thuật",
+      "phone": "1800.6601",
+      "note": "Nhánh 2"
+    },
+    {
+      "title": "Góp ý, khiếu nại và tiếp nhận cảnh báo vi phạm",
+      "phone": "1800.6616",
+      "note": "8h00 - 22h00"
+    }
+  ]
+}

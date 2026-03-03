@@ -1,0 +1,29 @@
+.FeatureGoldenHour_wrapper {
+    animation: FeatureGoldenHour_fade-in__ARFw7 .8s linear 0s;
+    border-radius: 1rem;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+    scroll-margin-top: 6.25rem
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_wrapper {
+        padding-bottom: .625rem;
+        padding-top: .625rem
+    }
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .SimCard_customSlider {
+        margin-right: .5rem;
+        width: 83.7%
+    }
+}
+
+@media (min-width:769px) {
+    .SimCard_customSlider {
+        margin-right: 0;
+        padding-left: .375rem;
+        padding-right: .375rem
+    }
+}

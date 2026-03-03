@@ -1,0 +1,112 @@
+{
+    "about-us": [
+        {
+            "name": "Giới thiệu về công ty",
+            "link": "https://fptshop.com.vn/ho-tro/gioi-thieu",
+            "new_tab": false
+        },
+        {
+            "name": "Quy chế hoạt động",
+            "link": "https://fptshop.com.vn/tos",
+            "new_tab": true
+        },
+        {
+            "name": "Dự án Doanh nghiệp",
+            "link": "https://fptshop.com.vn/ctkm/du-an-doanh-nghiep",
+            "new_tab": true
+        },
+        {
+            "name": "Tin tức khuyến mại",
+            "link": "https://fptshop.com.vn/dien-thoai",
+            "new_tab": true
+        },
+        {
+            "name": "Điện thoại chính hãng",
+            "link": "https://fptshop.com.vn/ho-tro/gioi-thieu-may-doi-tra",
+            "new_tab": false
+        },
+        {
+            "name": "Hướng dẫn mua hàng & thanh toán online",
+            "link": "https://fptshop.com.vn/ho-tro/huong-dan-mua-hang",
+            "new_tab": false
+        },
+        {
+            "name": "Đại lý uỷ quyền và TTBH uỷ quyền của Apple",
+            "link": "https://fptshop.com.vn/ho-tro/nha-nhap-khau-truc-tiep",
+            "new_tab": false
+        },
+        {
+            "name": "Tra cứu hoá đơn điện tử",
+            "link": "https://hddt.fptshop.com.vn/",
+            "new_tab": true
+        },
+        {
+            "name": "Tra cứu bảo hành",
+            "link": "https://fptshop.com.vn/kiem-tra-bao-hanh?tab=thong-tin-bao-hanh",
+            "new_tab": true
+        },
+        {
+            "name": "Câu hỏi thường gặp",
+            "link": "https://fptshop.com.vn/ho-tro/cau-hoi-thuong-gap",
+            "new_tab": false
+        }
+    ],
+    "policy":[
+        {
+            "name": "Chính sách bảo hành",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh",
+            "new_tab": false
+        },
+        {
+            "name": "Chính sách đổi trả",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-doi-san-pham",
+            "new_tab": false
+        },
+        {
+            "name": "Chính sách bảo mật",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-bao-mat",
+            "new_tab": false
+        },
+        {
+            "name": "Chính sách trả góp",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-tra-gop",
+            "new_tab": false
+        },
+        {
+            "name": "Chính sách khui hộp sản phẩm",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-khui-hop-san-pham",
+            "new_tab": false
+        },
+        {
+            "name": "Chính sách giao hàng & lắp đặt",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-giao-hang",
+            "new_tab": false
+        },
+        {
+            "name": "Chính sách mạng di động FPT",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-gia-cuoc",
+            "new_tab": false
+        },
+        {
+            "name": "Chính sách bảo mật dữ liệu cá nhân",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-thu-thap-va-xu-ly-du-lieu-ca-nhan",
+            "new_tab": false
+        },
+        {
+            "name": "Quy định về hỗ trợ kỹ thuật & sao lưu dữ liệu",
+            "link": "https://fptshop.com.vn/ho-tro/quy-dinh-ho-tro-ky-thuat-va-sao-luu-du-lieu",
+            "new_tab": false
+        },
+        {
+            "name": "Chính sách giao hàng & lắp đặt Điện máy, Gia dụng",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-giao-hang-dien-may-gia-dung",
+            "new_tab": false
+        },
+        {
+            "name": "Chính sách chương trình khách hàng thân thiết tại FPT Shop",
+            "link": "https://fptshop.com.vn/ho-tro/chinh-sach-chuong-trinh-khach-hang-than-thiet-tai-fpt-shop",
+            "new_tab": false
+        }
+    ]
+}
+

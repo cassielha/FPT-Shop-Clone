@@ -1,0 +1,26 @@
+.FooterMain_footerMainGroup {
+    flex: 1 1 0%
+}
+
+.FooterOne_footerOne ul li {
+    padding-bottom: .375rem;
+    padding-top: .375rem
+}
+
+.FooterOne_footerOne ul li:last-child {
+    padding-bottom: 0
+}
+
+.FooterOne_footerOne ul li span {
+    display: block;
+    margin-bottom: .25rem
+}
+
+.FooterOne_footerOne ul li a {
+    display: table
+}
+
+.FooterMain_footerTitle,
+.FooterOne_footerTitle {
+    text-transform: uppercase
+}

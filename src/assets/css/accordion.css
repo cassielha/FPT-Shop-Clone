@@ -1,0 +1,119 @@
+.Accordion_plusMinus {
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    min-height: 28px;
+    min-width: 28px;
+    position: relative;
+    --tw-border-opacity: 1;
+    border-color: rgb(243 244 246/var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246/var(--tw-bg-opacity))
+}
+
+.Accordion_plusMinus span:first-child {
+    border-radius: 1px;
+    display: block;
+    height: 2px;
+    margin: 0 6px;
+    position: absolute;
+    top: calc(50% - 1px);
+    transition: all .25s ease;
+    width: 14px
+}
+
+.Accordion_plusMinus span:nth-child(2) {
+    border-radius: 1px;
+    display: block;
+    height: 14px;
+    left: calc(50% - 1px);
+    margin: 6px 0;
+    position: absolute;
+    transition: all .25s ease;
+    width: 2px
+}
+
+.Accordion_accordionMinus span:first-child,
+.Accordion_accordionMinus span:nth-child(2),
+.Accordion_plusMinus span {
+    background-color: var(--black-opacity-100)
+}
+
+.Accordion_accordionMinus span:nth-child(2) {
+    transform: rotate(-90deg)
+}
+
+.Accordion_accordion .Accordion_accordionHeader {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+@media (min-width:769px) {
+    .Accordion_accordion .Accordion_accordionHeader {
+        pointer-events: auto
+    }
+}
+
+.Accordion_accordion .Accordion_accordionIcon svg {
+    height: 20px;
+    transition-duration: .15s;
+    transition-property: .35s;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    width: 20px
+}
+
+.Accordion_accordion .Accordion_collapse {
+    overflow: hidden;
+    transition-duration: .15s;
+    transition-duration: .35s;
+    transition-property: height;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-timing-function: ease
+}
+
+.Accordion_accordion .Accordion_active .Accordion_accordionIcon svg {
+    transform: rotate(180deg)
+}
+
+.Accordion_titleDefault {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .Accordion_titleDefault {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        padding-bottom: .375rem;
+        padding-top: .625rem
+    }
+}
+
+@media (min-width:769px) {
+    .Accordion_titleDefault {
+        margin-bottom: .5rem
+    }
+}
+
+.Accordion_childrenDefault {
+    background-color: var(--neutral-gray-1);
+    border-left: 2px var(--red-red-7);
+    border-style: solid;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: .75rem 1rem .75rem .875rem
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .Accordion_childrenDefault {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        padding: .5rem .75rem .5rem .625rem
+    }
+}

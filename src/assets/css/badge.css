@@ -1,0 +1,138 @@
+.FooterMain_footerTwo ul li {
+    padding-bottom: .375rem;
+    padding-top: .375rem
+}
+
+.FooterMain_footerTwo ul li:last-child {
+    padding-bottom: 0
+}
+
+
+.FooterBottom_copyright {
+    border-color: var(--white-opacity-20);
+    border-top-width: 1px
+}
+
+@media (min-width:769px) {
+    .FooterBottom_copyright {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem
+    }
+}
+
+.FooterBottom_copyright p {
+    color: var(--white-opacity-70);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0
+}
+
+@media (min-width:769px) {
+    .FooterBottom_copyright p {
+        display: inline;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px
+    }
+}
+
+.FooterBottom_footerButtomMain h3 {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin: 0 0 1.5rem
+}
+
+.FooterBottom_footerButtomMain li:last-child {
+    border-right-width: 0;
+    margin-right: 0
+}
+
+.FooterBottom_copyright ul {
+    display: block
+}
+
+@media (min-width:769px) {
+    .FooterBottom_copyright ul {
+        display: inline-block
+    }
+}
+
+.FooterBottom_copyright ul li {
+    color: var(--white-opacity-70);
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: .5rem;
+    padding-left: .75rem;
+    position: relative
+}
+
+@media (min-width:769px) {
+    .FooterBottom_copyright ul li {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px
+    }
+}
+
+.FooterBottom_copyright ul li:last-child {
+    margin-bottom: 0
+}
+
+.FooterBottom_copyright ul li a,
+.FooterBottom_copyright ul li span {
+    color: var(--neutral-white)
+}
+
+.FooterBottom_copyright ul li a {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px
+}
+
+@media (min-width:769px) {
+    .FooterBottom_copyright ul li a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px
+    }
+}
+
+.FooterBottom_copyright ul li:before {
+    background-color: var(--white-opacity-70);
+    border-radius: 9999px;
+    bottom: 0;
+    content: "";
+    height: 0;
+    left: .125rem;
+    margin: auto;
+    padding: .125rem;
+    position: absolute;
+    top: 0;
+    width: 0
+}
+
+@media only screen and (max-width:768px) {
+    .FooterBottom_copyright p {
+        margin-bottom: .5rem;
+        text-align: left
+    }
+}
+
+.Tabs_labelButton {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.Tabs_tabContainer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    overflow-x: auto;
+    width: 100%
+}

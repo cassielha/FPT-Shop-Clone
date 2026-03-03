@@ -1,0 +1,177 @@
+.CustomSlider_customSliderWrapper:hover .navigation-container {
+    opacity: 1;
+    transform: translateY(-50%)
+}
+
+.CustomSlider_sliderContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1
+}
+
+.CustomSlider_sliderWrapper {
+    box-sizing: content-box;
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
+    touch-action: pan-y;
+    transform: translateZ(0);
+    transition-property: transform;
+    will-change: transform;
+    z-index: 1
+}
+
+@media(min-width:1280px) {
+    .CustomSlider_sliderWrapper {
+        gap: var(--desktop-gap, 12px);
+        grid-template-columns: repeat(var(--desktop-total-columns, 12), calc((100% - var(--desktop-gap, 12px)*var(--desktop-gap-count, 6))/var(--desktop-columns, 6)));
+        grid-template-rows: repeat(var(--desktop-rows, 2), auto)
+    }
+}
+
+@media(min-width:769px)and (max-width:1279px) {
+    .CustomSlider_sliderWrapper {
+        gap: var(--tablet-gap, 12px);
+        grid-template-columns: repeat(var(--tablet-total-columns, 8), calc((100% - var(--tablet-gap, 12px)*var(--tablet-gap-count, 8))/var(--tablet-columns, 8)));
+        grid-template-rows: repeat(var(--tablet-rows, 1), auto)
+    }
+}
+
+@media(max-width:768px) {
+    .CustomSlider_sliderWrapper {
+        gap: var(--mobile-gap, 16px);
+        grid-template-columns: repeat(var(--mobile-total-columns, 4), calc((100% - var(--mobile-gap, 16px)*var(--mobile-gap-count, 4))/var(--mobile-columns, 4)));
+        grid-template-rows: repeat(var(--mobile-rows, 1), auto)
+    }
+}
+
+.CustomSlider_sliderItem {
+    box-sizing: border-box;
+    display: block;
+    min-width: 0;
+    position: relative
+}
+
+.CustomSlider_sliderItem img {
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+    pointer-events: none
+}
+
+.CustomSlider_sliderItem *,
+.CustomSlider_sliderItem a,
+.CustomSlider_sliderItem button,
+.CustomSlider_sliderItem img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.CustomSlider_navigationContainer {
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-40%);
+    transition: opacity .2s ease, transform .2s ease;
+    z-index: 10
+}
+
+@media(max-width:768px) {
+    .CustomSlider_navigationContainer {
+        display: none
+    }
+}
+
+.CustomSlider_navigationButton {
+    align-items: center;
+    background: hsla(0, 0%, 100%, .9);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    pointer-events: auto;
+    transition: all .2s ease;
+    width: 40px
+}
+
+.CustomSlider_navigationButton:hover:not(:disabled) {
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .2)
+}
+
+.CustomSlider_navigationButton:disabled {
+    cursor: not-allowed;
+    opacity: .3
+}
+
+.CustomSlider_navigationButton svg {
+    height: 20px;
+    width: 20px
+}
+
+.CustomSlider_prevButton {
+    margin-left: -40px
+}
+
+.CustomSlider_nextButton {
+    margin-right: -40px
+}
+
+.CustomSlider_paginationContainer {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 8px 0
+}
+
+.CustomSlider_paginationDot {
+    background: #d1d5db;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 8px;
+    padding: 0;
+    transition: all .2s ease;
+    width: 8px
+}
+
+.CustomSlider_paginationDot:hover {
+    background: #9ca3af
+}
+
+.CustomSlider_paginationDot.CustomSlider_active {
+    background: #3b82f6;
+    border-radius: 4px;
+    width: 24px
+}
+
+.CustomSlider_canSwipe .CustomSlider_sliderWrapper {
+    cursor: grab
+}
+
+.CustomSlider_isSwiping {
+    cursor: grabbing !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.CustomSlider_isSwiping .CustomSlider_sliderWrapper {
+    cursor: grabbing !important;
+    transition: none
+}
