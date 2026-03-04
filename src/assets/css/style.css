@@ -80,6 +80,17 @@
 }
 
 @media only screen and (max-width:768px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+
     .styles_btn.styles_btnMobileCategory {
         background-color: transparent !important;
         padding-bottom: .78125rem !important;
@@ -225,7 +236,7 @@
 }
 
 .Styles_navigation .styles_subMenu {
-    animation: styles_fadeDown__79hgm .2s linear 0s forwards;
+    animation: styles_fadeDown .2s linear 0s forwards;
     border-radius: 1rem;
     box-shadow: 0 calc(100vh + 32px) 0 100vh rgba(9, 13, 20, .698);
     display: none;
@@ -233,6 +244,19 @@
     position: absolute;
     width: 1240px;
     z-index: 2
+}
+
+
+@keyframes styles_fadeDown {
+    0% {
+        opacity: 0;
+        top: 44px
+    }
+
+    to {
+        opacity: 1;
+        top: 52px
+    }
 }
 
 .Styles_navigation .styles_subMenu .styles_subMenuWrap {

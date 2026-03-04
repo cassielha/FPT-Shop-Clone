@@ -275,3 +275,24 @@
     line-height: 10.4px;
     text-align: center
 }
+
+.ProductCard_brandCard {
+    border-radius: 18px;
+    position: relative;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity))
+}
+
+.ProductCard_brandCard:hover {
+    z-index: 1
+}
+
+.ProductCard_brandCard:not(.ProductCard_lineCard):hover {
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.ProductCard_cardDefault .ProductCard_cardInfo {
+    padding: .5rem
+}

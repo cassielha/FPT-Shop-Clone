@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!category) return;
 
         itemsContainer.innerHTML = category.items.map(item => `
-            <div class="swiper-slide Slider_slideItem4 h-auto SimCard_customSlider" style="width: 302px;" role="group">
+            <div class="swiper-slide Slider_slideItem4 h-auto SimCard_customSlider" role="group">
                 <a class="flex h-full flex-col rounded-[10px] border border-transparent px-4 pb-4 pt-3 transition-all hover:border-red-red-7"
                     style="background:radial-gradient(506.22% 134.18% at 0% 10.53%, #F3F4F6 0%, #F3F4F6 100%)"
                     href="${item.link}">

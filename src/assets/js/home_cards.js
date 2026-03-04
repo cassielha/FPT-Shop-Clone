@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const swiperContainer = container.closest('.swiper');
                     if (swiperContainer) {
                         new Swiper(swiperContainer, {
-                            slidesPerView: 1.1,
+                            slidesPerView: 1,
                             spaceBetween: 12,
                             navigation: {
                                 nextEl: swiperContainer.parentElement.querySelector('.CarouselArrow_nextArrowDefault'),
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             breakpoints: {
                                 769: {
                                     slidesPerView: 2,
-                                    spaceBetween: 15
+                                    spaceBetween: 16
                                 }
                             }
                         });
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const swiperContainer = container.closest('.swiper');
                     if (swiperContainer) {
                         new Swiper(swiperContainer, {
-                            slidesPerView: 1.1,
+                            slidesPerView: 1,
                             spaceBetween: 12,
                             navigation: {
                                 nextEl: swiperContainer.parentElement.querySelector('.CarouselArrow_nextArrowDefault'),
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const swiperContainer = container.closest('.swiper');
                     if (swiperContainer) {
                         new Swiper(swiperContainer, {
-                            slidesPerView: 1.1,
+                            slidesPerView: 1,
                             spaceBetween: 12,
                             navigation: {
                                 nextEl: swiperContainer.parentElement.querySelector('.CarouselArrow_nextArrowDefault'),

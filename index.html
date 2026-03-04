@@ -28,14 +28,15 @@
     <link rel="preload" as="image"
         imagesrcset="https://cdn2.fptshop.com.vn/unsafe/32x0/filters:format(webp):quality(75)/icon_apple_ccd2f88c95.png 1x, https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/icon_apple_ccd2f88c95.png 2x"
         fetchpriority="high">
+    <link rel="stylesheet" href="/src/assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/src/assets/css/tailwind-output.css">
     <link rel="stylesheet" href="/src/assets/css/scroll_top.css">
     <link rel="stylesheet" href="/src/assets/css/badge.css">
     <link rel="stylesheet" href="/src/assets/css/header_web.css">
-    <link rel="stylesheet" href="/src/assets/css/style.css">
     <link rel="stylesheet" href="/src/assets/css/custom_slider.css">
     <link rel="stylesheet" href="/src/assets/css/slider.css">
+    <link rel="stylesheet" href="/src/assets/css/feature.css">
     <link rel="stylesheet" href="/src/assets/css/article.css">
     <link rel="stylesheet" href="/src/assets/css/accordion.css">
     <link rel="stylesheet" href="/src/assets/css/carousel_arrow.css">
@@ -335,15 +336,14 @@
                             <div class="py-3 pc:px-6 pc:py-5">
                                 <p class="mb-3 text-textOnWhitePrimary mb:pl-4 pc:mb-5 pc:h6-semibold l7-semibold">Danh
                                     mục nổi bật</p>
-                                <div class="CustomSlider_customSliderWrapper mb:pl-4" style="position: relative;">
-                                    <div class="CustomSlider_sliderContainer CustomSlider_canSwipe"
-                                        style="--desktop-total-columns:8;--desktop-columns:8;--desktop-gap-count:7;--desktop-rows:2;--desktop-gap:12px;--tablet-total-columns:8;--tablet-columns:8;--tablet-gap-count:7;--tablet-rows:2;--tablet-gap:12px;--mobile-total-columns:8;--mobile-columns:4.5;--mobile-gap-count:4;--mobile-rows:2;--mobile-gap:16px">
-                                        <div class="CustomSlider_sliderWrapper" id="categories-container"
-                                            style="transition: transform 300ms ease-out; transform: translate3d(0px, 0px, 0px);">
+                                <div class="Slider_sliderWrapper">
+                                    <div class="swiper categories-swiper mb:pl-4">
+                                        <div class="swiper-wrapper" id="categories-container">
                                             <!-- Dynamic categories will be injected here -->
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -405,7 +405,7 @@
                     <div>
                         <div class="animate-fadein scroll-mt-25 rounded-2xl py-3 pc:container pc:py-2.5"
                             id="online-gia-re">
-                            <div class="FeatureGoldenHour_goldenHourTop___15M9"><img alt="https://fptshop.com.vn/"
+                            <div class="FeatureGoldenHour_goldenHourTop"><img alt="https://fptshop.com.vn/"
                                     loading="lazy" width="1240" height="120" decoding="async" data-nimg="1"
                                     class="mb:hidden w-full rounded-tl-2xl rounded-tr-2xl object-contain mb:rounded-tl-[10px] mb:rounded-tr-[10px]"
                                     style="color:transparent"
@@ -431,13 +431,33 @@
                             <div class="py-3 pc:px-6 pc:py-5">
                                 <p class="mb-3 text-textOnWhitePrimary mb:pl-4 pc:mb-5 pc:h6-semibold l7-semibold">Gợi ý
                                     cho bạn</p>
-                                <div class="CustomSlider_customSliderWrapper mb:pl-4" style="position: relative;">
-                                    <div class="CustomSlider_sliderContainer CustomSlider_canSwipe"
-                                        style="--desktop-total-columns:8;--desktop-columns:8;--desktop-gap-count:7;--desktop-rows:2;--desktop-gap:12px;--tablet-total-columns:8;--tablet-columns:8;--tablet-gap-count:7;--tablet-rows:2;--tablet-gap:12px;--mobile-total-columns:8;--mobile-columns:4.5;--mobile-gap-count:4;--mobile-rows:2;--mobile-gap:16px">
-                                        <div class="CustomSlider_sliderWrapper" id="recommend-container"
-                                            style="transition: transform 300ms ease-out; transform: translate3d(0px, 0px, 0px);">
+                                <div class="Slider_sliderWrapper">
+                                    <div class="swiper recommend-swiper mb:pl-4">
+                                        <div class="swiper-wrapper" id="recommend-container">
                                             <!-- Dynamic recommend items will be injected here -->
                                         </div>
+                                    </div>
+                                    <div class="Slider_carouselArrow">
+                                        <button
+                                            class="CarouselArrow_prevArrowDefault CarouselArrow_prevArrowWhite CarouselArrow_prevArrowLarge"
+                                            aria-label="Previous slide" style="left: -20px; top: 50%;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M12.2676 15.793C11.9677 16.0787 11.493 16.0672 11.2073 15.7672L6.20597 10.5168C5.93004 10.2271 5.93004 9.77187 6.20597 9.4822L11.2073 4.23173C11.493 3.93181 11.9677 3.92028 12.2676 4.20597C12.5676 4.49166 12.5791 4.96639 12.2934 5.26631L7.78483 9.99949L12.2934 14.7327C12.5791 15.0326 12.5676 15.5073 12.2676 15.793Z"
+                                                    fill="#090D14"></path>
+                                            </svg>
+                                        </button>
+                                        <button
+                                            class="CarouselArrow_nextArrowDefault CarouselArrow_nextArrowWhite CarouselArrow_nextArrowLarge"
+                                            aria-label="Next slide" style="right: -20px; top: 50%;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M8.29289 4.29289C7.90237 4.68342 7.90237 5.31658 8.29289 5.70711L14.5858 12L8.29289 18.2929C7.90237 18.6834 7.90237 19.3166 8.29289 19.7071C8.68342 20.0976 9.31658 20.0976 9.70711 19.7071L16.7071 12.7071C17.0976 12.3166 17.0976 11.6834 16.7071 11.2929L9.70711 4.29289C9.31658 3.90237 8.68342 3.90237 8.29289 4.29289Z"
+                                                    fill="#090D14"></path>
+                                            </svg>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -533,7 +553,7 @@
                                                 <!-- Dynamic categories will be injected here -->
                                             </div>
                                         </div>
-                                        <div class="Slider_carouselArrow__cw8ga">
+                                        <div class="Slider_carouselArrow">
                                             <button style="right:-20px;top:50%"
                                                 class="CarouselArrow_nextArrowDefault CarouselArrow_nextArrowWhite CarouselArrow_nextArrowLarge"
                                                 aria-label="Next slide">
@@ -772,7 +792,7 @@
                                         <span class="swiper-notification" aria-live="assertive"
                                             aria-atomic="true"></span>
                                     </div>
-                                    <div class="Slider_carouselArrow__cw8ga"></div>
+                                    <div class="Slider_carouselArrow"></div>
                                 </div>
                             </div>
                         </div><!--/$-->
@@ -786,40 +806,37 @@
                                             Ưu đãi thanh toán
                                         </h2>
                                     </div>
-                                    <div class="relative pc:-mx-2 [&:hover_.carouselArrow]:opacity-100 mt-5">
-                                        <div class="Slider_sliderWrapper">
-                                            <div class="swiper swiper-initialized swiper-horizontal">
-                                                <div class="swiper-wrapper" id="home-cards-saleoff-container"
-                                                    aria-label="off"
-                                                    style="transition: transform 300ms ease-out; transform: translate3d(0px, 0px, 0px);"
-                                                    transition-duration="0s" transition-delay="0ms">
 
-                                                </div>
-                                            </div>
-                                            <div class="Slider_carouselArrow">
-                                                <button
-                                                    class="CarouselArrow_prevArrowDefault CarouselArrow_prevArrowWhite CarouselArrow_prevArrowLarge"
-                                                    aria-label="Previous slide" style="left: -20px; top: 50%;">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 20 20" fill="none">
-                                                        <path
-                                                            d="M12.2676 15.793C11.9677 16.0787 11.493 16.0672 11.2073 15.7672L6.20597 10.5168C5.93004 10.2271 5.93004 9.77187 6.20597 9.4822L11.2073 4.23173C11.493 3.93181 11.9677 3.92028 12.2676 4.20597C12.5676 4.49166 12.5791 4.96639 12.2934 5.26631L7.78483 9.99949L12.2934 14.7327C12.5791 15.0326 12.5676 15.5073 12.2676 15.793Z"
-                                                            fill="#090D14"></path>
-                                                    </svg>
-                                                </button>
-                                                <button
-                                                    class="CarouselArrow_nextArrowDefault CarouselArrow_nextArrowWhite CarouselArrow_nextArrowLarge"
-                                                    aria-label="Next slide" style="right: -20px; top: 50%;">
-                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M8.29289 4.29289C7.90237 4.68342 7.90237 5.31658 8.29289 5.70711L14.5858 12L8.29289 18.2929C7.90237 18.6834 7.90237 19.3166 8.29289 19.7071C8.68342 20.0976 9.31658 20.0976 9.70711 19.7071L16.7071 12.7071C17.0976 12.3166 17.0976 11.6834 16.7071 11.2929L9.70711 4.29289C9.31658 3.90237 8.68342 3.90237 8.29289 4.29289Z"
-                                                            fill="#090D14"></path>
-                                                    </svg>
-                                                </button>
+                                    <div class="Slider_sliderWrapper">
+                                        <div class="swiper swiper-initialized swiper-horizontal">
+                                            <div class="swiper-wrapper" id="home-cards-saleoff-container">
+
                                             </div>
                                         </div>
+                                        <div class="Slider_carouselArrow">
+                                            <button
+                                                class="CarouselArrow_prevArrowDefault CarouselArrow_prevArrowWhite CarouselArrow_prevArrowLarge"
+                                                aria-label="Previous slide" style="left: -20px; top: 50%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 20 20" fill="none">
+                                                    <path
+                                                        d="M12.2676 15.793C11.9677 16.0787 11.493 16.0672 11.2073 15.7672L6.20597 10.5168C5.93004 10.2271 5.93004 9.77187 6.20597 9.4822L11.2073 4.23173C11.493 3.93181 11.9677 3.92028 12.2676 4.20597C12.5676 4.49166 12.5791 4.96639 12.2934 5.26631L7.78483 9.99949L12.2934 14.7327C12.5791 15.0326 12.5676 15.5073 12.2676 15.793Z"
+                                                        fill="#090D14"></path>
+                                                </svg>
+                                            </button>
+                                            <button
+                                                class="CarouselArrow_nextArrowDefault CarouselArrow_nextArrowWhite CarouselArrow_nextArrowLarge"
+                                                aria-label="Next slide" style="right: -20px; top: 50%;">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8.29289 4.29289C7.90237 4.68342 7.90237 5.31658 8.29289 5.70711L14.5858 12L8.29289 18.2929C7.90237 18.6834 7.90237 19.3166 8.29289 19.7071C8.68342 20.0976 9.31658 20.0976 9.70711 19.7071L16.7071 12.7071C17.0976 12.3166 17.0976 11.6834 16.7071 11.2929L9.70711 4.29289C9.31658 3.90237 8.68342 3.90237 8.29289 4.29289Z"
+                                                        fill="#090D14"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -993,21 +1010,21 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="../src/assets/js/nav_menu.js"></script>
-    <script src="../src/assets/js/social_links.js"></script>
-    <script src="../src/assets/js/hotlines.js"></script>
-    <script src="../src/assets/js/banners.js"></script>
-    <script src="../src/assets/js/home_cards.js"></script>
-    <script src="../src/assets/js/categories.js"></script>
-    <script src="../src/assets/js/recommend_items.js"></script>
-    <script src="../src/assets/js/about_us.js"></script>
-    <script src="../src/assets/js/utilities_services.js"></script>
-    <script src="../src/assets/js/sim_fpt.js"></script>
-    <script src="../src/assets/js/service_commit.js"></script>
-    <script src="../src/assets/js/lny_sale_off.js"></script>
-    <script src="../src/assets/js/product.js"></script>
-    <script src="../src/assets/js/partner.js"></script>
-    <script src="../src/assets/js/eco_system.js"></script>
+    <script src="/src/assets/js/nav_menu.js"></script>
+    <script src="/src/assets/js/social_links.js"></script>
+    <script src="/src/assets/js/hotlines.js"></script>
+    <script src="/src/assets/js/banners.js"></script>
+    <script src="/src/assets/js/home_cards.js"></script>
+    <script src="/src/assets/js/categories.js"></script>
+    <script src="/src/assets/js/recommend_items.js"></script>
+    <script src="/src/assets/js/about_us.js"></script>
+    <script src="/src/assets/js/utilities_services.js"></script>
+    <script src="/src/assets/js/sim_fpt.js"></script>
+    <script src="/src/assets/js/service_commit.js"></script>
+    <script src="/src/assets/js/lny_sale_off.js"></script>
+    <script src="/src/assets/js/product.js"></script>
+    <script src="/src/assets/js/partner.js"></script>
+    <script src="/src/assets/js/eco_system.js"></script>
 </body>
 
 </html>

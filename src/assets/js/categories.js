@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 data.categories.forEach(item => {
                     const slide = document.createElement('div');
-                    slide.className = 'CustomSlider_sliderItem';
+                    slide.className = 'swiper-slide';
 
                     slide.innerHTML = `
                         <a class="group" href="${item.link}">
@@ -34,52 +34,29 @@ document.addEventListener('DOMContentLoaded', () => {
                     wrapper.appendChild(slide);
                 });
 
-                // Swipe Logic
-                let isDown = false;
-                let startX;
-                let scrollLeft = 0;
-                let x = 0;
-                let walk = 0;
+                new Swiper('.categories-swiper', {
+                    grid: {
+                        rows: 2,
+                        fill: 'row',
+                    },
+                    slidesPerView: 4,
+                    spaceBetween: 16,
 
-                const startDragging = (e) => {
-                    isDown = true;
-                    container.classList.add('CustomSlider_isSwiping');
-                    startX = (e.pageX || e.touches[0].pageX);
-                    // Get current translate value
-                    const style = window.getComputedStyle(wrapper);
-                    const matrix = new WebKitCSSMatrix(style.transform);
-                    scrollLeft = matrix.m41;
-                };
+                    breakpoints: {
+                        769: {
+                            slidesPerView: 8,
+                            spaceBetween: 12,
+                            grid: { rows: 2, fill: 'row' },
+                        },
+                    },
+                    navigation: {
+                        prevEl: '.CarouselArrow_prevArrowDefault',
+                        nextEl: '.CarouselArrow_nextArrowDefault',
+                    },
 
-                const stopDragging = () => {
-                    isDown = false;
-                    container.classList.remove('CustomSlider_isSwiping');
-                };
-
-                const move = (e) => {
-                    if (!isDown) return;
-                    e.preventDefault();
-                    x = (e.pageX || e.touches[0].pageX);
-                    walk = x - startX;
-                    const newTranslate = scrollLeft + walk;
-
-                    // Basic boundary check
-                    const maxScroll = -(wrapper.scrollWidth - container.clientWidth);
-                    const boundedTranslate = Math.max(Math.min(0, newTranslate), maxScroll);
-
-                    wrapper.style.transform = `translate3d(${boundedTranslate}px, 0px, 0px)`;
-                };
-
-                // Mouse Events
-                container.addEventListener('mousedown', startDragging);
-                container.addEventListener('mouseleave', stopDragging);
-                container.addEventListener('mouseup', stopDragging);
-                container.addEventListener('mousemove', move);
-
-                // Touch Events
-                container.addEventListener('touchstart', startDragging);
-                container.addEventListener('touchend', stopDragging);
-                container.addEventListener('touchmove', move);
+                    grabCursor: true,
+                    touchStartPreventDefault: false,
+                });
             }
         })
         .catch(error => console.error('Error loading categories:', error));

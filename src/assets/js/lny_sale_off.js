@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             swiperContainer.swiper.slideTo(0);
           } else {
             new Swiper(swiperContainer, {
-              slidesPerView: 1.1,
+              slidesPerView: 1,
               spaceBetween: 12,
               navigation: {
                 nextEl: swiperContainer.parentElement.querySelector('.CarouselArrow_nextArrowDefault'),
