@@ -19,13 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     a.innerHTML = `
                         <div class="bg-[length:100%_auto] bg-[center_top] bg-no-repeat BannerTheme_sliderBg"
                             style="background-color:${banner.bg_color} !important">
-                            <img alt="FPT Shop" fetchpriority="high" width="1440" height="600" decoding="async" data-nimg="1"
+                            <img alt="FPT Shop" fetchpriority="high" decoding="async" data-nimg="1"
                                 class="w-screen" style="color:transparent"
                                 srcset="${banner.bg_img_srcset}"
                                 src="${banner.bg_img_src}">
                         </div>
                         <div class="container relative top-[24px] m-auto flex min-h-[148px] items-center justify-center md:top-[42px] md:min-h-[285px]">
-                            <img alt="FPT Shop" draggable="false" fetchpriority="high" width="1240" height="285"
+                            <img alt="FPT Shop" draggable="false" fetchpriority="high" 
                                 decoding="async" data-nimg="1" class="hidden md:block" style="color:transparent"
                                 srcset="${banner.fg_img_srcset}"
                                 src="${banner.fg_img_src}">

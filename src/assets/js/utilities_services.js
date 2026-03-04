@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 `).join('');
 
-                // Re-initialize Swiper if needed or ensure the dynamic content is handled by Swiper
                 new Swiper('.UtilitiesService_customSlider_wrapper', {
                     slidesPerView: 3,
                     spaceBetween: 10,
