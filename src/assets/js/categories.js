@@ -4,7 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             const wrapper = document.getElementById('categories-container');
             if (wrapper && data.categories) {
-                const container = wrapper.parentElement;
+                const container = wrapper.querySelector('.swiper-wrapper');
+                const swiperEl = wrapper.querySelector('.swiper');
+                const nextBtn = wrapper.querySelector('.CarouselArrow_nextArrowDefault');
+                const prevBtn = wrapper.querySelector('.CarouselArrow_prevArrowDefault');
 
                 data.categories.forEach(item => {
                     const slide = document.createElement('div');
@@ -31,10 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </a>
                     `;
-                    wrapper.appendChild(slide);
+                    container.appendChild(slide);
                 });
 
-                new Swiper('.categories-swiper', {
+                new Swiper(swiperEl, {
                     grid: {
                         rows: 2,
                         fill: 'row',
@@ -50,8 +53,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         },
                     },
                     navigation: {
-                        prevEl: '.CarouselArrow_prevArrowDefault',
-                        nextEl: '.CarouselArrow_nextArrowDefault',
+                        prevEl: prevBtn,
+                        nextEl: nextBtn,
                     },
 
                     grabCursor: true,

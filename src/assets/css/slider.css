@@ -100,7 +100,7 @@
 }
 
 .Slider_carouselArrow {
-    opacity: 1
+    opacity: 0
 }
 
 @media (min-width:769px) {
@@ -114,14 +114,14 @@
         opacity: 0;
         transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
     }
-}
 
-.Slider_carouselArrow {
-    transition: .3s ease-in-out
-}
+    .Slider_sliderWrapper:hover .Slider_carouselArrow {
+        opacity: 1
+    }
 
-.Slider_sliderWrapper:hover .Slider_carouselArrow {
-    opacity: 1
+    .Slider_carouselArrow {
+        transition: .3s ease-in-out
+    }
 }
 
 .Slider_autoplayWrapper {

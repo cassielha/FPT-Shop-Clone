@@ -296,9 +296,9 @@
                     <div class="relative py-3 md:py-2.5">
                         <div class="container">
                             <div class="HomeCard_homeCard bg-transparent p-0">
-                                <div class="Slider_sliderWrapper">
+                                <div class="Slider_sliderWrapper" id="home-cards-container">
                                     <div class="swiper swiper-initialized swiper-horizontal">
-                                        <div class="swiper-wrapper" id="home-cards-container" aria-live="off">
+                                        <div class="swiper-wrapper" aria-live="off">
                                             <!-- Dynamic cards will be injected here -->
                                         </div>
                                     </div><span class="swiper-notification" aria-live="assertive"
@@ -336,9 +336,9 @@
                             <div class="py-3 pc:px-6 pc:py-5">
                                 <p class="mb-3 text-textOnWhitePrimary mb:pl-4 pc:mb-5 pc:h6-semibold l7-semibold">Danh
                                     mục nổi bật</p>
-                                <div class="Slider_sliderWrapper">
+                                <div class="Slider_sliderWrapper" id="categories-container">
                                     <div class="swiper categories-swiper mb:pl-4">
-                                        <div class="swiper-wrapper" id="categories-container">
+                                        <div class="swiper-wrapper">
                                             <!-- Dynamic categories will be injected here -->
                                         </div>
                                     </div>
@@ -364,41 +364,7 @@
                             </div>
                             <div class="relative overflow-hidden pc:rounded-b-xl pc:px-3 pc:pb-4"
                                 style="background: rgb(187, 4, 22);">
-                                <div class="FeatureGoldenHour_goldenHourDate">
-                                    <ul class="FeatureGoldenHour_listDate">
-                                        <li class="px-1 FeatureGoldenHour_active">
-                                            <div class="FeatureGoldenHour"> 10:30, 24/02</div>
-                                            <p>Bắt đầu sau: <span
-                                                    class="Countdown_countDown Countdown_highlight Countdown_isBlur Countdown_active"
-                                                    style="color: rgb(255, 255, 255);"><span class="Countdown_number"
-                                                        style="background-color: rgb(239, 68, 68);">18</span><span
-                                                        class="Countdown_colon"
-                                                        style="color: rgb(9, 13, 20);">:</span><span
-                                                        class="Countdown_number"
-                                                        style="background-color: rgb(239, 68, 68);">04</span><span
-                                                        class="Countdown_colon"
-                                                        style="color: rgb(9, 13, 20);">:</span><span
-                                                        class="Countdown_number"
-                                                        style="background-color: rgb(239, 68, 68);">52</span></span></p>
-                                        </li>
-                                        <li class="px-1">
-                                            <div class="FeatureGoldenHour">25/02</div>
-                                            <p class="whitespace-nowrap">Sắp diễn ra</p>
-                                        </li>
-                                        <li class="px-1">
-                                            <div class="FeatureGoldenHour">26/02</div>
-                                            <p class="whitespace-nowrap">Sắp diễn ra</p>
-                                        </li>
-                                        <li class="px-1">
-                                            <div class="FeatureGoldenHour">27/02</div>
-                                            <p class="whitespace-nowrap">Sắp diễn ra</p>
-                                        </li>
-                                        <li class="px-1">
-                                            <div class="FeatureGoldenHour">28/02</div>
-                                            <p class="whitespace-nowrap">Sắp diễn ra</p>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -431,9 +397,9 @@
                             <div class="py-3 pc:px-6 pc:py-5">
                                 <p class="mb-3 text-textOnWhitePrimary mb:pl-4 pc:mb-5 pc:h6-semibold l7-semibold">Gợi ý
                                     cho bạn</p>
-                                <div class="Slider_sliderWrapper">
+                                <div class="Slider_sliderWrapper" id="recommend-container">
                                     <div class="swiper recommend-swiper mb:pl-4">
-                                        <div class="swiper-wrapper" id="recommend-container">
+                                        <div class="swiper-wrapper">
                                             <!-- Dynamic recommend items will be injected here -->
                                         </div>
                                     </div>
@@ -467,10 +433,9 @@
                         <div class="relative py-3 md:py-2.5">
                             <div class="container">
                                 <div class="HomeCard_homeCard bg-transparent p-0">
-                                    <div class="Slider_sliderWrapper">
+                                    <div class="Slider_sliderWrapper" id="home-cards-middle-container">
                                         <div class="swiper swiper-initialized swiper-horizontal">
-                                            <div class="swiper-wrapper" id="home-cards-middle-container"
-                                                aria-live="off">
+                                            <div class="swiper-wrapper" aria-live="off">
                                                 <!-- Dynamic cards will be injected here -->
                                             </div>
                                         </div><span class="swiper-notification" aria-live="assertive"
@@ -739,9 +704,9 @@
                                         </div>
                                         <div class="">
                                             <div class="animate-fadein">
-                                                <div class="Slider_sliderWrapper mb:-mx-4">
+                                                <div class="Slider_sliderWrapper mb:-mx-4" id="sim-fpt-items-container">
                                                     <div class="swiper px-4 pc:px-0">
-                                                        <div class="swiper-wrapper" id="sim-fpt-items-container">
+                                                        <div class="swiper-wrapper">
                                                             <!-- Dynamic items will be injected here -->
                                                         </div>
                                                     </div>
@@ -807,9 +772,9 @@
                                         </h2>
                                     </div>
 
-                                    <div class="Slider_sliderWrapper">
+                                    <div class="Slider_sliderWrapper" id="home-cards-saleoff-container">
                                         <div class="swiper swiper-initialized swiper-horizontal">
-                                            <div class="swiper-wrapper" id="home-cards-saleoff-container">
+                                            <div class="swiper-wrapper">
 
                                             </div>
                                         </div>
@@ -1017,6 +982,7 @@
     <script src="/src/assets/js/home_cards.js"></script>
     <script src="/src/assets/js/categories.js"></script>
     <script src="/src/assets/js/recommend_items.js"></script>
+    <script src="/src/assets/js/golden_hours.js"></script>
     <script src="/src/assets/js/about_us.js"></script>
     <script src="/src/assets/js/utilities_services.js"></script>
     <script src="/src/assets/js/sim_fpt.js"></script>

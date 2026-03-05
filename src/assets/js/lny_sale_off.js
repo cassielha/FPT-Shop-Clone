@@ -97,6 +97,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 prevEl: swiperContainer.parentElement.querySelector('.CarouselArrow_prevArrowDefault'),
               },
               breakpoints: {
+                376: {
+                  slidesPerView: 2,
+                  spaceBetween: 12
+                },
                 769: {
                   slidesPerView: 3,
                   spaceBetween: 12

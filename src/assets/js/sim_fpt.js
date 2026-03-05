@@ -4,21 +4,25 @@ document.addEventListener('DOMContentLoaded', () => {
     let tabSwiperInstance = null;
 
     const tabsContainer = document.getElementById('sim-fpt-tabs-container');
-    const itemsContainer = document.getElementById('sim-fpt-items-container');
+    const itemsWrapper = document.getElementById('sim-fpt-items-container');
 
-    if (!tabsContainer || !itemsContainer) return;
+    if (!tabsContainer || !itemsWrapper) return;
 
     const initSwiper = () => {
         if (swiperInstance) {
             swiperInstance.destroy(true, true);
         }
-        const swiperElement = itemsContainer.closest('.swiper');
-        swiperInstance = new Swiper(swiperElement, {
+
+        const swiperEl = itemsWrapper.querySelector('.swiper');
+        const nextBtn = itemsWrapper.querySelector('.CarouselArrow_nextArrowDefault');
+        const prevBtn = itemsWrapper.querySelector('.CarouselArrow_prevArrowDefault');
+
+        swiperInstance = new Swiper(swiperEl, {
             slidesPerView: 'auto',
             spaceBetween: 8,
             navigation: {
-                nextEl: '.Slider_sliderWrapper .CarouselArrow_nextArrowDefault, .Slider_sliderWrapper .CarouselArrow_nextArrowDefault',
-                prevEl: '.Slider_sliderWrapper .CarouselArrow_prevArrowDefault, .Slider_sliderWrapper .CarouselArrow_prevArrowDefault',
+                nextEl: nextBtn,
+                prevEl: prevBtn,
             },
             breakpoints: {
                 1024: {
@@ -45,7 +49,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const category = simData.find(c => c.id === categoryId);
         if (!category) return;
 
-        itemsContainer.innerHTML = category.items.map(item => `
+        // inject vao swiper-wrapper ben trong itemsWrapper
+        const container = itemsWrapper.querySelector('.swiper-wrapper');
+        container.innerHTML = category.items.map(item => `
             <div class="swiper-slide Slider_slideItem4 h-auto SimCard_customSlider" role="group">
                 <a class="flex h-full flex-col rounded-[10px] border border-transparent px-4 pb-4 pt-3 transition-all hover:border-red-red-7"
                     style="background:radial-gradient(506.22% 134.18% at 0% 10.53%, #F3F4F6 0%, #F3F4F6 100%)"
@@ -59,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <p class="text-textOnWhiteBrand l6-semibold">${item.price}</p>
                         </div>
                         <div class="flex items-end">
-                            <img alt="sim card" loading="lazy" width="56" height="40" decoding="async" 
+                            <img alt="sim card" loading="lazy" width="56" height="40" decoding="async"
                                 srcset="${item.icon} 1x, ${item.icon} 2x"
                                 src="${item.icon}">
                         </div>
@@ -78,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderTabs = () => {
         tabsContainer.innerHTML = simData.map((category, index) => `
             <div class="swiper-slide w-fit">
-                <button id="tab-${category.id}" 
+                <button id="tab-${category.id}"
                     class="Tabs_button hover:border-red-red-7 min-h-[32px] hover:text-textOnWhiteBrand mr-2 cursor-pointer rounded-[40px] px-2.5 py-1.5 b2-medium border ${index === 0 ? 'border-red-red-7 text-textOnWhiteBrand Tabs_buttonActive' : 'border-neutral-gray-3 text-textOnWhitePrimary'} Tabs_large Tabs_buttonLarge">
                     <span class="Tabs_labelButton">${category.name}</span>
                 </button>
@@ -86,10 +92,9 @@ document.addEventListener('DOMContentLoaded', () => {
         `).join('');
 
         tabsContainer.querySelectorAll('button').forEach(button => {
-            button.addEventListener('click', (e) => {
+            button.addEventListener('click', () => {
                 const categoryId = parseInt(button.id.replace('tab-', ''));
 
-                // Update active class
                 tabsContainer.querySelectorAll('button').forEach(btn => {
                     btn.classList.remove('border-red-red-7', 'text-textOnWhiteBrand', 'Tabs_buttonActive');
                     btn.classList.add('border-neutral-gray-3', 'text-textOnWhitePrimary');

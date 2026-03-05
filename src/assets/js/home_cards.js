@@ -5,11 +5,29 @@ document.addEventListener('DOMContentLoaded', () => {
             const homeCardsData = data.home_cards;
             if (!homeCardsData) return;
 
-            // Render Home Cards
+            function initCarousel(wrapperId, swiperOptions) {
+                const wrapper = document.getElementById(wrapperId);
+                if (!wrapper) return null;
+
+                const swiperEl = wrapper.querySelector('.swiper');
+                const nextBtn = wrapper.querySelector('.CarouselArrow_nextArrowDefault');
+                const prevBtn = wrapper.querySelector('.CarouselArrow_prevArrowDefault');
+
+                return new Swiper(swiperEl, {
+                    ...swiperOptions,
+                    navigation: {
+                        nextEl: nextBtn,
+                        prevEl: prevBtn,
+                    },
+                });
+            }
+
+            // ── 1. Home Cards (2 slides/view trên desktop) ──────────────────────────
             const cardsSection = homeCardsData.find(section => section.cards);
             if (cardsSection) {
-                const container = document.getElementById('home-cards-container');
-                if (container) {
+                const wrapper = document.getElementById('home-cards-container');
+                if (wrapper) {
+                    const container = wrapper.querySelector('.swiper-wrapper');
                     cardsSection.cards.forEach(card => {
                         const slide = document.createElement('div');
                         slide.className = 'swiper-slide h-auto';
@@ -27,31 +45,22 @@ document.addEventListener('DOMContentLoaded', () => {
                         container.appendChild(slide);
                     });
 
-                    const swiperContainer = container.closest('.swiper');
-                    if (swiperContainer) {
-                        new Swiper(swiperContainer, {
-                            slidesPerView: 1,
-                            spaceBetween: 12,
-                            navigation: {
-                                nextEl: swiperContainer.parentElement.querySelector('.CarouselArrow_nextArrowDefault'),
-                                prevEl: swiperContainer.parentElement.querySelector('.CarouselArrow_prevArrowDefault'),
-                            },
-                            breakpoints: {
-                                769: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 16
-                                }
-                            }
-                        });
-                    }
+                    initCarousel('home-cards-container', {
+                        slidesPerView: 1,
+                        spaceBetween: 12,
+                        breakpoints: {
+                            769: { slidesPerView: 2, spaceBetween: 16 }
+                        }
+                    });
                 }
             }
 
-            // Middle Home Cards
+            // ── 2. Middle Home Cards (3 slides/view trên desktop) ───────────────────
             const middleCardsSection = homeCardsData.find(section => section.middle_cards);
             if (middleCardsSection) {
-                const container = document.getElementById('home-cards-middle-container');
-                if (container) {
+                const wrapper = document.getElementById('home-cards-middle-container');
+                if (wrapper) {
+                    const container = wrapper.querySelector('.swiper-wrapper');
                     middleCardsSection.middle_cards.forEach(item => {
                         const slide = document.createElement('div');
                         slide.className = 'swiper-slide Slider_slideItem3 h-auto';
@@ -59,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <a href="${item.link}">
                                 <div class="BgFrameResponsive_frameWrapper">
                                     <div class="BgFrameResponsive_frame"></div>
-                                    <img alt="${item.alt}" loading="lazy" decoding="async" data-nimg="1" 
+                                    <img alt="${item.alt}" loading="lazy" decoding="async" data-nimg="1"
                                          class="rounded-2xl mb:rounded-[10px]" style="color:transparent"
                                          srcset="${item.img_srcset}" src="${item.img_src}">
                                 </div>
@@ -68,31 +77,22 @@ document.addEventListener('DOMContentLoaded', () => {
                         container.appendChild(slide);
                     });
 
-                    const swiperContainer = container.closest('.swiper');
-                    if (swiperContainer) {
-                        new Swiper(swiperContainer, {
-                            slidesPerView: 1,
-                            spaceBetween: 12,
-                            navigation: {
-                                nextEl: swiperContainer.parentElement.querySelector('.CarouselArrow_nextArrowDefault'),
-                                prevEl: swiperContainer.parentElement.querySelector('.CarouselArrow_prevArrowDefault'),
-                            },
-                            breakpoints: {
-                                769: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 15
-                                }
-                            }
-                        });
-                    }
+                    initCarousel('home-cards-middle-container', {
+                        slidesPerView: 1,
+                        spaceBetween: 12,
+                        breakpoints: {
+                            769: { slidesPerView: 3, spaceBetween: 15 }
+                        }
+                    });
                 }
             }
 
-            // Render Payment Offers
+            // ── 3. Payment Offers (3 slides/view trên desktop) ──────────────────────
             const paymentSection = homeCardsData.find(section => section.payment_offers);
             if (paymentSection) {
-                const container = document.getElementById('home-cards-saleoff-container');
-                if (container) {
+                const wrapper = document.getElementById('home-cards-saleoff-container');
+                if (wrapper) {
+                    const container = wrapper.querySelector('.swiper-wrapper');
                     paymentSection.payment_offers.forEach(item => {
                         const slide = document.createElement('div');
                         slide.className = 'swiper-slide Slider_slideItem3 h-auto';
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <a href="${item.link}">
                                 <div class="BgFrameResponsive_frameWrapper">
                                     <div class="BgFrameResponsive_frame"></div>
-                                    <img alt="${item.alt}" loading="lazy" decoding="async" data-nimg="1" 
+                                    <img alt="${item.alt}" loading="lazy" decoding="async" data-nimg="1"
                                          class="rounded-2xl mb:rounded-[10px]" style="color:transparent"
                                          srcset="${item.img_srcset}" src="${item.img_src}">
                                 </div>
@@ -109,23 +109,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         container.appendChild(slide);
                     });
 
-                    const swiperContainer = container.closest('.swiper');
-                    if (swiperContainer) {
-                        new Swiper(swiperContainer, {
-                            slidesPerView: 1,
-                            spaceBetween: 12,
-                            navigation: {
-                                nextEl: swiperContainer.parentElement.querySelector('.CarouselArrow_nextArrowDefault'),
-                                prevEl: swiperContainer.parentElement.querySelector('.CarouselArrow_prevArrowDefault'),
-                            },
-                            breakpoints: {
-                                769: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 15
-                                }
-                            }
-                        });
-                    }
+                    initCarousel('home-cards-saleoff-container', {
+                        slidesPerView: 1,
+                        spaceBetween: 12,
+                        breakpoints: {
+                            769: { slidesPerView: 3, spaceBetween: 15 }
+                        }
+                    });
                 }
             }
         })

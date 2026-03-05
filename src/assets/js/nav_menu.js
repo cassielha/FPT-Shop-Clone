@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     let content = '';
                     const innerClass = "flex items-center b2-medium";
-                    const imgHtml = `<img alt="${item.name}" fetchpriority="high" width="32" height="32" decoding="async" data-nimg="1" class="mr-2" style="color:transparent" srcset="${item.icon_srcset}" src="${item.icon_src}">`;
+                    const imgHtml = `<img alt="${item.name}" loading="lazy" fetchpriority="high" width="32" height="32" decoding="async" data-nimg="1" class="mr-2" style="color:transparent" srcset="${item.icon_srcset}" src="${item.icon_src}">`;
                     const arrowHtml = item.has_arrow ? `<span class="ml-1 size-4"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.20041 5.73966C3.48226 5.43613 3.95681 5.41856 4.26034 5.70041L8 9.22652L11.7397 5.70041C12.0432 5.41856 12.5177 5.43613 12.7996 5.73966C13.0815 6.0432 13.0639 6.51775 12.7603 6.7996L8.51034 10.7996C8.22258 11.0668 7.77743 11.0668 7.48967 10.7996L3.23966 6.7996C2.93613 6.51775 2.91856 6.0432 3.20041 5.73966Z" fill="#090D14"></path></svg></span>` : '';
 
                     if (item.link) {
