@@ -3,6 +3,22 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import { RouterProvider, createBrowserRouter } from 'react-router'
+
+import Home from './pages/Home'
+import Cart from './pages/Cart'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+  },
+  {
+    path: '/cart',
+    element: <Cart />,
+  },
+])
+
 function App() {
   const [count, setCount] = useState(0)
 

@@ -1,0 +1,34 @@
+{
+  "utilities": [
+    {
+      "name": "SIM FPT",
+      "link": "https://fptshop.com.vn/sim-fpt",
+      "icon": "https://cdn2.fptshop.com.vn/svg/sim_fpt_4de7ae9933_c6f749daf4.svg"
+    },
+    {
+      "name": "SIM Du lịch",
+      "link": "https://fptshop.com.vn/sim-du-lich",
+      "icon": "https://cdn2.fptshop.com.vn/svg/icon_menu_10fcfdb430.svg"
+    },
+    {
+      "name": "Nạp thẻ điện thoại",
+      "link": "https://fptshop.com.vn/dich-vu/the-cao-dien-thoai",
+      "icon": "https://cdn2.fptshop.com.vn/svg/the_dien_thoai_be57f95ecf_fa9d41237a.svg"
+    },
+    {
+      "name": "Đóng phí Internet",
+      "link": "https://fptshop.com.vn/dich-vu/thanh-toan-hoa-don-internet",
+      "icon": "https://cdn2.fptshop.com.vn/svg/tien_internet_bd9a355225_03e954c658.svg"
+    },
+    {
+      "name": "Điện thoại trả sau",
+      "link": "https://fptshop.com.vn/dich-vu/thanh-toan-cuoc-dien-thoai-tra-sau",
+      "icon": "https://cdn2.fptshop.com.vn/svg/dien_thoai_tra_sau_11aa8b35a3_5927ab5ed8.svg"
+    },
+    {
+      "name": "Dịch vụ khác",
+      "link": "https://fptshop.com.vn/dich-vu",
+      "icon": "https://cdn2.fptshop.com.vn/svg/Khac_a756550960.svg"
+    }
+  ]
+}

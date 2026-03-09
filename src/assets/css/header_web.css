@@ -1,0 +1,142 @@
+#fptshop-header.fixMain {
+    background-color: transparent;
+    position: sticky;
+}
+
+#fptshop-header.fixMain .nav-menu {
+    opacity: 0;
+}
+
+#fptshop-header.fixMain #header-main {
+    animation-delay: .1s;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-name: scrollDown;
+    opacity: 0;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+    position: relative;
+    z-index: 1
+}
+
+#fptshop-header.fixMain .sub-menu-overlay {
+    border-top-left-radius: 16px;
+    box-shadow: 0 calc(100vh + 4px) 0 100vh rgba(9, 13, 20, .698);
+}
+
+#fptshop-header.fixMain .sub-overlay {
+    height: calc(100% - 4px);
+    left: 337px;
+    top: 4px;
+    width: 903px;
+    z-index: -1
+}
+
+#fptshop-header.fixMain .ins-preview-wrapper {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+
+@keyframes scrollDown {
+    from {
+        opacity: 0;
+        top: -68px;
+    }
+
+    to {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+#fptshop-header.header-mobile-fixed #search {
+    margin-top: -40px !important;
+    padding: 0 48px 0 32px !important;
+}
+
+#fptshop-header.header-mobile-fixed .news-logo {
+    height: 40px !important;
+    -o-object-fit: contain !important;
+    object-fit: contain !important;
+}
+
+#fptshop-header.header-mobile-fixed #search {
+    margin-top: -40px !important;
+    padding: 0 !important;
+    z-index: 99 !important
+}
+
+#fptshop-header.header-mobile-fix-search #search .menu-right {
+    display: none !important
+}
+
+#fptshop-header.header-mobile-fix-search #search .btn-close {
+    display: flex !important
+}
+
+#fptshop-header.header-mobile-fix-search #searchSubContent {
+    left: -46px !important;
+    top: 48px !important
+}
+
+#fptshop-header.header-mobile-show-menu {
+    z-index: 201 !important
+}
+
+.HeaderMain_main {
+    background: linear-gradient(5deg, #cb1c22 67.61%, #d9503f 95.18%);
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    width: 100%
+}
+
+@media (min-width:769px) {
+    .HeaderMain_main {
+        padding-bottom: 2.5rem;
+        padding-top: 1rem
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .MiniCart_btn.MiniCart_btnMobileCard svg {
+        margin-right: 0 !important
+    }
+
+    .MiniCart_btn.MiniCart_btnMobileCard {
+        background: rgba(9, 13, 20, .4) !important;
+        border-radius: 100% !important;
+        padding: .5rem !important
+    }
+}
+
+.SearchBar_searchIcon svg {
+    transition-delay: 0s;
+    transition-duration: .15s;
+    transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-timing-function: ease
+}
+
+
+.SearchBar_searchInput input:focus~.SearchBar_searchIcon {
+    background-color: var(--red-red-7) !important;
+    transition-delay: 0s !important;
+    transition-duration: .15s !important;
+    transition-duration: .8s !important;
+    transition-property: all !important;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+    transition-timing-function: ease !important
+}
+
+.SearchBar_searchInput input:focus~.SearchBar_searchIcon svg,
+.SearchBar_searchInput input:focus~.SearchBar_searchIcon svg * {
+    stroke: #fff;
+    transition-delay: 0s;
+    transition-duration: .15s;
+    transition-duration: .8s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-timing-function: ease
+}

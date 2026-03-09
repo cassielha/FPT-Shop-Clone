@@ -1,0 +1,31 @@
+{
+  "banners": [
+    {
+      "link": "https://fptshop.com.vn/ctkm/mo-loc-dau-nam",
+      "bg_color": "#F3F4F6",
+      "bg_img_srcset": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/desk_header_bg_e53441390b.png 1x",
+      "bg_img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/desk_header_bg_e53441390b.png",
+      "fg_img_srcset": "https://cdn2.fptshop.com.vn/unsafe/1240x0/filters:format(webp):quality(75)/desk_header_662f007a46.png 1x, https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/desk_header_662f007a46.png 2x",
+      "fg_img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/desk_header_662f007a46.png",
+      "active": true
+    },
+    {
+      "link": "https://fptshop.com.vn/ctkm/loa-va-thiet-bi-giai-tri",
+      "bg_color": "#F3F4F6",
+      "bg_img_srcset": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/desk_header_bg_1_e29d8b3329.png 1x",
+      "bg_img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/desk_header_bg_1_e29d8b3329.png",
+      "fg_img_srcset": "https://cdn2.fptshop.com.vn/unsafe/1240x0/filters:format(webp):quality(75)/desk_header_1_bf4a0076f4.png 1x, https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/desk_header_1_bf4a0076f4.png 2x",
+      "fg_img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/desk_header_1_bf4a0076f4.png",
+      "active": false
+    },
+    {
+      "link": "https://fptshop.com.vn/ctkm/galaxy-moi",
+      "bg_color": "#eff0f2",
+      "bg_img_srcset": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/desk_header_bg_053f946547.png 1x",
+      "bg_img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/desk_header_bg_053f946547.png",
+      "fg_img_srcset": "https://cdn2.fptshop.com.vn/unsafe/1240x0/filters:format(webp):quality(75)/desk_header_369298e731.png 1x, https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/desk_header_369298e731.png 2x",
+      "fg_img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/desk_header_369298e731.png",
+      "active": false
+    }
+  ]
+}

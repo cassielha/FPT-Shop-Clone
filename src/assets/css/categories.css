@@ -1,0 +1,35 @@
+.MiniCart_cart-icon-badge:after {
+    align-items: center;
+    border-radius: 50%;
+    content: attr(data-cart-count);
+    display: flex;
+    height: 1rem;
+    justify-content: center;
+    position: absolute;
+    top: -.125rem;
+    width: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(217 119 6/var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px
+}
+
+.MiniCart_cart-icon-badge[data-cart-count="0"]:after {
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .MiniCart_cart-icon-badge:after {
+        right: -.25rem
+    }
+}
+
+@media (min-width:769px) {
+    .MiniCart_cart-icon-badge:after {
+        right: .25rem;
+        top: -.25rem
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "service_commit": [
+        {
+            "title": "Thương hiệu đảm bảo",
+            "sub_title": "Nhập khẩu, bảo hành chính hãng",
+            "srcset": "https://cdn2.fptshop.com.vn/estore-v2/img/icons/policy3.svg 1x, https://cdn2.fptshop.com.vn/estore-v2/img/icons/policy3.svg 2x",
+            "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/policy3.svg"
+        },
+        {
+            "title": "Đổi trả dễ dàng",
+            "sub_title": "Theo chính sách đổi trả tại FPT Shop",
+            "srcset": "https://cdn2.fptshop.com.vn/estore-v2/img/icons/policy4.svg 1x, https://cdn2.fptshop.com.vn/estore-v2/img/icons/policy4.svg 2x",
+            "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/policy4.svg"
+        },
+        {
+            "title": "Giao hàng tận nơi",
+            "sub_title": "Trên toàn quốc",
+            "srcset": "https://cdn2.fptshop.com.vn/estore-v2/img/icons/policy1.svg 1x, https://cdn2.fptshop.com.vn/estore-v2/img/icons/policy1.svg 2x",
+            "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/policy1.svg"
+        },
+        {
+            "title": "Sản phẩm chất lượng",
+            "sub_title": "Đảm bảo tương thích và độ bền cao",
+            "srcset": "https://cdn2.fptshop.com.vn/estore-v2/img/icons/policy2.svg 1x, https://cdn2.fptshop.com.vn/estore-v2/img/icons/policy2.svg 2x",
+            "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/policy2.svg"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "partner": [
+        {
+            "id": "payment_support",
+            "name": "Hỗ trợ thanh toán",
+            "items": [
+                {
+                    "name": "VISA",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/visa_icon_44fe6e15ed.svg 1x, https://cdn2.fptshop.com.vn/svg/visa_icon_44fe6e15ed.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/visa_icon_44fe6e15ed.svg"
+                },
+                {
+                    "name": "MasterCard",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/mastercard_icon_c75f94f6a5.svg 1x, https://cdn2.fptshop.com.vn/svg/mastercard_icon_c75f94f6a5.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/mastercard_icon_c75f94f6a5.svg"
+                },
+                {
+                    "name": "JCB",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/jcb_icon_214783937c.svg 1x, https://cdn2.fptshop.com.vn/svg/jcb_icon_214783937c.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/jcb_icon_214783937c.svg"
+                },
+                {
+                    "name": "American Express",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/amex_icon_d6fb68108d.svg 1x, https://cdn2.fptshop.com.vn/svg/amex_icon_d6fb68108d.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/amex_icon_d6fb68108d.svg"
+                },
+                {
+                    "name": "VNPAY",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/vnpay_icon_f42045057d.svg 1x, https://cdn2.fptshop.com.vn/svg/vnpay_icon_f42045057d.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/vnpay_icon_f42045057d.svg"
+                },
+                {
+                    "name": "ZaloPay",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/zalopay_icon_26d64ea93f.svg 1x, https://cdn2.fptshop.com.vn/svg/zalopay_icon_26d64ea93f.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/zalopay_icon_26d64ea93f.svg"
+                },
+                {
+                    "name": "ATM",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/napas_icon_94d5330e3c.svg 1x, https://cdn2.fptshop.com.vn/svg/napas_icon_94d5330e3c.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/napas_icon_94d5330e3c.svg"
+                },
+                {
+                    "name": "Kredivo",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/kredivo_icon_04f72baf36.svg 1x, https://cdn2.fptshop.com.vn/svg/kredivo_icon_04f72baf36.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/kredivo_icon_04f72baf36.svg"
+                },
+                {
+                    "name": "MoMo",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/momo_icon_baef21b5f7.svg 1x, https://cdn2.fptshop.com.vn/svg/momo_icon_baef21b5f7.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/momo_icon_baef21b5f7.svg"
+                },
+                {
+                    "name": "Foxpay",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/foxpay_icon_063b36c1f8.svg 1x, https://cdn2.fptshop.com.vn/svg/foxpay_icon_063b36c1f8.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/foxpay_icon_063b36c1f8.svg"
+                },
+                {
+                    "name": "AlePay",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/alepay_icon_20d5310617.svg 1x, https://cdn2.fptshop.com.vn/svg/alepay_icon_20d5310617.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/alepay_icon_20d5310617.svg"
+                },
+                {
+                    "name": "Muadee",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/muadee_icon_5e297d9e61.svg 1x, https://cdn2.fptshop.com.vn/svg/muadee_icon_5e297d9e61.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/muadee_icon_5e297d9e61.svg"
+                },
+                {
+                    "name": "Home PayLater",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/homepaylater_icon_adef600842.svg 1x, https://cdn2.fptshop.com.vn/svg/homepaylater_icon_adef600842.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/homepaylater_icon_adef600842.svg"
+                },
+                {
+                    "name": "Apple Pay",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/applepay_icon_cb6806a0d0.svg 1x, https://cdn2.fptshop.com.vn/svg/applepay_icon_cb6806a0d0.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/applepay_icon_cb6806a0d0.svg"
+                },
+                {
+                    "name": "Samsung Pay",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/samsungpay_icon_0292aa9876.svg 1x, https://cdn2.fptshop.com.vn/svg/samsungpay_icon_0292aa9876.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/samsungpay_icon_0292aa9876.svg"
+                },
+                {
+                    "name": "Google Pay",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/googlepay_icon_afa293cc14.svg 1x, https://cdn2.fptshop.com.vn/svg/googlepay_icon_afa293cc14.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/googlepay_icon_afa293cc14.svg"
+                }
+            ]
+        },
+        {
+            "id": "certification",
+            "name": "Chứng nhận",
+            "items": [
+                {
+                    "name": "DMCA",
+                    "link": "https://www.dmca.com/Protection/Status.aspx?ID=98d66f66-5a62-47e9-b45c-edaebfb0c9b3&refurl=https://fptshop.com.vn/",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/dmca_icon_8fc6622bd5.svg 1x, https://cdn2.fptshop.com.vn/svg/dmca_icon_8fc6622bd5.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/dmca_icon_8fc6622bd5.svg"
+                },
+                {
+                    "name": "Thương hiệu mạnh Việt Nam 2013",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/thuong_hieu_manh_2013_icon_b56f772475.svg 1x, https://cdn2.fptshop.com.vn/svg/thuong_hieu_manh_2013_icon_b56f772475.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/thuong_hieu_manh_2013_icon_b56f772475.svg"
+                },
+                {
+                    "name": "Sản phẩm - Dịch vụ hàng đầu Việt Nam 2014",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/san_pham_dich_vu_hang_dau_viet_nam_icon_282a9ba4f7.svg 1x, https://cdn2.fptshop.com.vn/svg/san_pham_dich_vu_hang_dau_viet_nam_icon_282a9ba4f7.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/san_pham_dich_vu_hang_dau_viet_nam_icon_282a9ba4f7.svg"
+                },
+                {
+                    "name": "Nói không với hàng giả",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/noi_khong_voi_hang_gia_icon_e16037d9cb.svg 1x, https://cdn2.fptshop.com.vn/svg/noi_khong_voi_hang_gia_icon_e16037d9cb.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/noi_khong_voi_hang_gia_icon_e16037d9cb.svg"
+                },
+                {
+                    "name": "Đã thông báo Bộ Công Thương",
+                    "link": "http://online.gov.vn/Home/WebDetails/21883",
+                    "srcset": "https://cdn2.fptshop.com.vn/svg/da_thong_bao_bo_cong_thuong_icon_64785fb3f7.svg 1x, https://cdn2.fptshop.com.vn/svg/da_thong_bao_bo_cong_thuong_icon_64785fb3f7.svg 2x",
+                    "src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/da_thong_bao_bo_cong_thuong_icon_64785fb3f7.svg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "golden_hours": [
+        {
+            "start_time": "2026-03-06T14:00:00",
+            "end_time": "2026-03-06T16:00:00",
+            "products": [
+                {
+                    "name": "Pin sạc dự phòng Magsafe Innostyle PowerMag Slim QC 3.0/PD 20W 10000mAh",
+                    "price": "699.000đ",
+                    "original_price": "1.290.000đ",
+                    "discount": "46%",
+                    "slots": "10/10",
+                    "image": "https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/pin_sac_du_phong_magsafe_innostyle_powermag_slim_qc_30pd_xam_c92dc11871.png",
+                    "url": "/phu-kien/pin-sac-du-phong-magsafe-innostyle-powermag-slim-qc-30pd-20w-10000mah?sku=00850614"
+                },
+                {
+                    "name": "OPPO A18 4GB 128GB",
+                    "price": "2.990.000đ",
+                    "original_price": "3.990.000đ",
+                    "discount": "25%",
+                    "slots": "10/10",
+                    "image": "https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/2023_10_31_638343387237365361_oppo-a18-xanh-2.jpg",
+                    "url": "/dien-thoai/oppo-a18?sku=00905200"
+                },
+                {
+                    "name": "Laptop HP 14-ep0112TU i5-1335U (8C5L1PA)",
+                    "price": "16.590.000đ",
+                    "original_price": "19.190.000đ",
+                    "discount": "14%",
+                    "slots": "10/10",
+                    "image": "https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/2024_4_5_638479322106453155_hp-14-ep0112TU-i5-1335u-1.jpg",
+                    "url": "/may-tinh-xach-tay/hp-14-ep0112tu-i5-1335u?sku=00907390"
+                },
+                {
+                    "name": "Máy Massage cổ vai gáy Philips PPM3522",
+                    "price": "1.690.000đ",
+                    "original_price": "2.490.000đ",
+                    "discount": "32%",
+                    "slots": "10/10",
+                    "image": "https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/2024_4_15_638488005548291260_may-massage-co-vai-gay-philips-ppm3522-3.jpg",
+                    "url": "/may-massage/may-massage-co-vai-gay-philips-ppm3522?sku=00907605"
+                },
+                {
+                    "name": "Chuột gaming có dây Logitech G502X",
+                    "price": "1.490.000đ",
+                    "original_price": "1.861.000đ",
+                    "discount": "20%",
+                    "slots": "10/10",
+                    "image": "https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/chuot_gaming_co_day_logitech_g502x_14c4b14ae7.png",
+                    "url": "/phu-kien/chuot-gaming-co-day-logitech-g502x?sku=00907979"
+                },
+                {
+                    "name": "OPPO A3 8GB 256GB",
+                    "price": "5.490.000đ",
+                    "original_price": "6.380.000đ",
+                    "discount": "14%",
+                    "slots": "10/10",
+                    "image": "https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/oppo_a3_den_5_1b29542df8.jpg",
+                    "url": "/dien-thoai/oppo-a3-8gb?sku=00910607"
+                }
+            ]
+        },
+        {
+            "start_time": "2026-03-07T12:00:00",
+            "end_time": "2026-03-07T14:00:00",
+            "products": []
+        },
+        {
+            "start_time": "2026-03-08T12:00:00",
+            "end_time": "2026-03-08T14:00:00",
+            "products": []
+        },
+        {
+            "start_time": "2026-03-09T12:00:00",
+            "end_time": "2026-03-09T14:00:00",
+            "products": []
+        }
+    ]
+}

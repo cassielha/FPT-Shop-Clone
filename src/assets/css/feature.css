@@ -1,0 +1,674 @@
+.FeatureFavoriteBrand_wapper {
+    align-items: center;
+    background-color: var(--neutral-white);
+    border-color: var(--neutral-gray-3);
+    border-radius: .75rem;
+    border-width: 1px;
+    display: flex
+}
+
+.FeatureFavoriteBrand_wapper:hover {
+    border-color: var(--Background-Special-red-Default, #dc2626)
+}
+
+.FeatureFavoriteBrand_sliderWapper {
+    margin-right: -1.25rem
+}
+
+.FeatureFavoriteBrand_branchIcon {
+    align-items: center;
+    border-color: var(--neutral-gray-3);
+    display: flex;
+    height: 2.75rem;
+    justify-content: center;
+    margin-left: .75rem;
+    margin-right: 0;
+    width: 2.75rem
+}
+
+@media (min-width:768px) {
+    .FeatureFavoriteBrand_branchIcon {
+        height: 3rem;
+        width: 3rem
+    }
+}
+
+.FeatureFavoriteBrand_branchIconItem {
+    border-radius: .75rem;
+    overflow: hidden;
+    padding: .25rem
+}
+
+.FeatureFavoriteBrand_imageRight {
+    align-items: center;
+    border-bottom-right-radius: .75rem;
+    border-top-right-radius: .75rem;
+    display: flex;
+    height: 4.375rem;
+    justify-content: center;
+    overflow: hidden;
+    width: 4.375rem
+}
+
+@media (min-width:768px) {
+    .FeatureFavoriteBrand_imageRight {
+        height: 4.875rem;
+        width: 4.875rem
+    }
+}
+
+.FeatureFavoriteBrand_imageRightItem {
+    overflow: hidden
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .FeatureFavoriteBrand_customSlider {
+        margin-right: .5rem;
+        width: 74%
+    }
+}
+
+.FeatureGoldenHour_wrapper {
+    animation: FeatureGoldenHour_fade-in__ARFw7 .8s linear 0s;
+    border-radius: 1rem;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+    scroll-margin-top: 6.25rem
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_wrapper {
+        padding-bottom: .625rem;
+        padding-top: .625rem
+    }
+}
+
+.FeatureGoldenHour_goldenHourTop {
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+    overflow: hidden;
+    position: relative
+}
+
+.FeatureGoldenHour_flashSaleTitle {
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -.5rem
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_flashSaleTitle {
+        top: -.625rem
+    }
+}
+
+.FeatureGoldenHour_goldenHourDate {
+    background-color: var(--neutral-white);
+    border-bottom-width: 1px;
+    border-color: var(--neutral-gray-3);
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow-y: auto;
+    position: relative;
+    text-align: center;
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.FeatureGoldenHour_goldenHourDate::-webkit-scrollbar {
+    display: none
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_goldenHourDate {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        overflow: hidden
+    }
+}
+
+.FeatureGoldenHour_no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.FeatureGoldenHour_no-scrollbar::-webkit-scrollbar {
+    display: none
+}
+
+.FeatureGoldenHour_listDate {
+    display: flex;
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.FeatureGoldenHour_listDate::-webkit-scrollbar {
+    display: none
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_listDate {
+        flex: 1 1 0%;
+        overflow-x: auto
+    }
+}
+
+.FeatureGoldenHour_listDate li {
+    border-color: transparent;
+    cursor: pointer;
+    padding-bottom: 9px;
+    padding-top: .625rem;
+    text-align: center;
+    transition: all .3s ease-in;
+    width: 108px
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_listDate li {
+        border-bottom-width: 2px;
+        height: 72px;
+        padding-bottom: .75rem;
+        padding-top: 13px;
+        width: 136px
+    }
+}
+
+.FeatureGoldenHour_listDate li .FeatureGoldenHour {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_listDate li .FeatureGoldenHour {
+        margin-bottom: .25rem
+    }
+}
+
+.FeatureGoldenHour_listDate li .FeatureGoldenHour span {
+    background-color: var(--black-opacity-100);
+    border-radius: 9999px;
+    display: inline-block;
+    margin-left: .375rem;
+    margin-right: .375rem;
+    padding: 2.5px
+}
+
+.FeatureGoldenHour_listDate li p {
+    color: var(--neutral-gray-5)
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .FeatureGoldenHour_listDate li p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px
+    }
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_listDate li p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px
+    }
+}
+
+.FeatureGoldenHour_listDate li:first-child {
+    flex: none;
+    width: 205px
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_listDate li:first-child {
+        width: 237px
+    }
+}
+
+.FeatureGoldenHour_listDate li:first-child .FeatureGoldenHour,
+.FeatureGoldenHour_listDate li:first-child p {
+    color: var(--black-opacity-100)
+}
+
+.FeatureGoldenHour_listDate li.FeatureGoldenHour_active,
+.FeatureGoldenHour_listDate li:hover {
+    background-color: var(--red-red-2);
+    border-bottom-width: 2px;
+    border-color: var(--red-red-7)
+}
+
+.FeatureGoldenHour_goldenHourBottom {
+    background-color: var(--neutral-white);
+    overflow: hidden;
+    position: relative
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_goldenHourBottom {
+        background: linear-gradient(180deg, #a20b0b, #80090a);
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        padding-bottom: .5rem;
+        padding-left: .5rem;
+        padding-right: .5rem
+    }
+}
+
+.FeatureGoldenHour_btnView {
+    display: flex;
+    justify-content: flex-end
+}
+
+.FeatureGoldenHour_btnView .FeatureGoldenHour_btnViewControl {
+    border-radius: 0;
+    border-bottom-left-radius: 104px;
+    color: var(--blue-blue-7);
+    padding-bottom: .625rem;
+    padding-left: 2rem;
+    padding-top: .625rem
+}
+
+.FeatureGoldenHour_btnView .FeatureGoldenHour_btnViewControl svg {
+    margin-left: 0 !important
+}
+
+@keyframes FeatureGoldenHour_fade-in__ARFw7 {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.FeatureGoldenHour_goldenHourItems {
+    animation: FeatureGoldenHour_fade-in__ARFw7 .8s linear 0s;
+    background-color: var(--neutral-white);
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+    padding-bottom: .75rem;
+    padding-right: 0;
+    padding-top: .75rem
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_goldenHourItems {
+        padding: .75rem
+    }
+}
+
+.FeatureGoldenHour_goldenHourItemTop {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_goldenHourItemTop {
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem
+    }
+}
+
+.FeatureGoldenHour_goldenHourItemTop h3 {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: var(--black-opacity-100);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    min-height: 2.25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: center
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_goldenHourItemTop h3 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        min-height: 2.75rem;
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+}
+
+.FeatureGoldenHour_goldenHourItemTop .FeatureGoldenHour_icShockingDiscount {
+    left: 50%;
+    position: absolute;
+    top: 1px;
+    --tw-translate-x: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_goldenHourItemTop .FeatureGoldenHour_icShockingDiscount {
+        top: .125rem
+    }
+}
+
+.FeatureGoldenHour_goldenHourItemTop .FeatureGoldenHour_imgDesktop {
+    transition-duration: .3s;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1)
+}
+
+.FeatureGoldenHour_goldenHourItemTop:hover img {
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.FeatureGoldenHour_goldenHourItemBottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: space-between;
+    margin-bottom: .25rem
+}
+
+.FeatureGoldenHour_goldenHourItemBottom .FeatureGoldenHour_price {
+    width: 100%
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_goldenHourItemBottom .FeatureGoldenHour_price {
+        width: 153px
+    }
+}
+
+.FeatureGoldenHour_goldenHourItemBottom .FeatureGoldenHour_btnLink {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: .375rem;
+    padding-top: .375rem;
+    width: 100%
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_goldenHourItemBottom .FeatureGoldenHour_btnLink {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 3px;
+        padding: .625rem 13.5px
+    }
+}
+
+.FeatureGoldenHour_goldenHourItemBottom .FeatureGoldenHour_btnLink {
+    word-spacing: -1px
+}
+
+.FeatureGoldenHour_numberSold {
+    align-items: center;
+    background-color: var(--red-red-6);
+    border-radius: .75rem;
+    color: var(--neutral-white);
+    display: flex;
+    justify-content: center;
+    line-height: 1rem;
+    margin-bottom: .5rem;
+    position: relative
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_numberSold {
+        line-height: 1.25rem;
+        margin-bottom: .75rem
+    }
+}
+
+.FeatureGoldenHour_numberSold .FeatureGoldenHour_icFire {
+    left: 0;
+    position: absolute;
+    top: -4px;
+    z-index: 1
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+    .FeatureGoldenHour_numberSold .FeatureGoldenHour_icFire .FeatureGoldenHour_icFireDisable,
+    .FeatureGoldenHour_numberSold .FeatureGoldenHour_icFire .FeatureGoldenHour_icFireView {
+        height: 18px;
+        width: 13px
+    }
+}
+
+.FeatureGoldenHour_numberSold .FeatureGoldenHour_numberProgress {
+    background-color: var(--black-opacity-20);
+    border-bottom-left-radius: .75rem;
+    border-top-left-radius: .75rem;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 80%
+}
+
+.FeatureGoldenHour_numberSold .FeatureGoldenHour_numberPrice {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    position: relative;
+    z-index: 1
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_numberSold .FeatureGoldenHour_numberPrice {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        margin-bottom: .125rem;
+        margin-top: .125rem
+    }
+}
+
+.FeatureGoldenHour_price .FeatureGoldenHour_originalPrice {
+    color: var(--black-opacity-100);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: .125rem
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_price .FeatureGoldenHour_originalPrice {
+        font-size: 20px;
+        line-height: 28px
+    }
+}
+
+.FeatureGoldenHour_discountPercentage .FeatureGoldenHour_left {
+    color: var(--neutral-gray-5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: .5rem;
+    text-decoration-line: line-through
+}
+
+.FeatureGoldenHour_discountPercentage .FeatureGoldenHour_right {
+    background-color: var(--yellow-yellow-3);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: var(--yellow-yellow-8);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 1px .25rem 1px .75rem;
+    position: relative
+}
+
+.FeatureGoldenHour_discountPercentage .FeatureGoldenHour_right span {
+    left: -2px;
+    position: absolute;
+    top: 0
+}
+
+.FeatureGoldenHour_goldenHourItemTopImage {
+    height: 7.75rem;
+    margin-bottom: .25rem;
+    position: relative;
+    width: 7.75rem
+}
+
+@media (min-width:769px) {
+    .FeatureGoldenHour_goldenHourItemTopImage {
+        height: 8.75rem;
+        margin-bottom: .75rem;
+        width: 8.75rem
+    }
+}
+
+.FeatureGoldenHour_goldenHourItemTopImage .FeatureGoldenHour_icSoldOut {
+    display: none
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_icSoldOut {
+    display: block
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_goldenHourItemTop {
+    border-color: var(--black-opacity-40)
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_goldenHourItemTop img {
+    opacity: .6
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_goldenHourItemTop h4 {
+    color: var(--neutral-gray-5)
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_numberSold {
+    background-color: var(--black-opacity-50)
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_numberSold .FeatureGoldenHour_numberProgress {
+    display: none
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_price .FeatureGoldenHour_originalPrice {
+    color: var(--neutral-gray-5)
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_price .FeatureGoldenHour_discountPercentage .FeatureGoldenHour_left {
+    color: var(--neutral-gray-4)
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_price .FeatureGoldenHour_discountPercentage .FeatureGoldenHour_right {
+    background-color: var(--black-opacity-10);
+    color: var(--black-opacity-60)
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_btnLink {
+    background-color: var(--neutral-gray-2);
+    color: var(--neutral-gray-4)
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_icFireView,
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_icMode {
+    display: none
+}
+
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_icFireDisable,
+.FeatureGoldenHour_isSoldOut .FeatureGoldenHour_icModeDisable {
+    display: block !important
+}
+
+.FeatureGoldenHour_keySellingPoint {
+    color: var(--black-opacity-100);
+    font-family: var(--font-inter), sans-serif;
+    font-size: 8px;
+    line-height: 10.4px;
+    text-align: center
+}
+
+.Countdown_countDown {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    min-width: 108px;
+    padding-left: .25rem;
+    padding-right: .25rem
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .Countdown_countDown {
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+.Countdown_countDown.Countdown_highlight span.Countdown_number {
+    border-radius: .25rem;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 1.25rem;
+    line-height: 20px;
+    min-width: 32px;
+    padding-bottom: .125rem;
+    padding-top: 0;
+    text-align: center
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .Countdown_countDown.Countdown_highlight span.Countdown_number {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px
+    }
+}
+
+.Countdown_countDown.Countdown_highlight .Countdown_colon {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-left: .25rem;
+    padding-right: .25rem
+}
+
+.Countdown_countDown.Countdown_isBlur * {
+    filter: blur(2px);
+    transition: all .3s ease 0s
+}
+
+.Countdown_countDown.Countdown_isBlur.Countdown_active * {
+    --tw-blur: blur(0);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .SimCard_customSlider {
+        margin-right: .5rem;
+        width: 83.7%
+    }
+}
+
+@media (min-width:769px) {
+    .SimCard_customSlider {
+        margin-right: 0;
+        padding-left: .375rem;
+        padding-right: .375rem
+    }
+}

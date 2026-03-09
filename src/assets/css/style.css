@@ -1,0 +1,300 @@
+.User_userWrap .User_btnUser {
+    background: #7d161c;
+    border: 0;
+    border-radius: 50%;
+    padding: 10px
+}
+
+
+.User_btnControl,
+.User_btnUser {
+    position: relative
+}
+
+.User_btnControl {
+    cursor: pointer
+}
+
+.User_btnControl:after {
+    background-color: transparent;
+    bottom: 100%;
+    height: 10px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    --tw-content: "";
+    content: var(--tw-content)
+}
+
+.User_btnControl:hover .User_listSub {
+    display: block !important
+}
+
+.User_isBlur * {
+    display: flex;
+    --tw-blur: blur(2px);
+    transition-delay: 0s;
+    transition-duration: .15s;
+    transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-timing-function: ease
+}
+
+.User_isBlur *,
+.User_isBlur.User_active * {
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+
+.User_isBlur.User_active * {
+    --tw-blur: blur(0)
+}
+
+@keyframes User_fadeDown {
+    0% {
+        opacity: 0;
+        top: 44px
+    }
+
+    to {
+        opacity: 1;
+        top: 52px
+    }
+}
+
+.User_avatarImage {
+    align-items: center;
+    background-color: var(--black-a3);
+    border-radius: 100%;
+    display: inline-flex;
+    height: 2.75rem;
+    justify-content: center;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    width: 2.75rem
+}
+
+@media only screen and (max-width:768px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+
+    .styles_btn.styles_btnMobileCategory {
+        background-color: transparent !important;
+        padding-bottom: .78125rem !important;
+        padding-left: 0 !important;
+        padding-top: .78125rem !important
+    }
+
+    .styles_btn.styles_btnMobileCategory svg {
+        margin-right: 0 !important
+    }
+}
+
+.User_btnControl,
+.User_btnUser {
+    position: relative
+}
+
+
+.Button_root {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    position: relative;
+    transition: all .3s ease 0s
+}
+
+.Button_root.Button_text {
+    border-radius: 0;
+    padding: 0
+}
+
+.Button_root.Button_text,
+.Button_text:hover {
+    background-color: transparent;
+    border-style: none
+}
+
+.Button_btnVeryLarge {
+    padding: .75rem 1rem
+}
+
+.Button_btnLarge,
+.Button_btnVeryLarge {
+    border-radius: 1.5rem;
+    font-weight: 500
+}
+
+.Button_btnLarge {
+    padding: .625rem 1rem
+}
+
+.Button_blackSecondary {
+    background-color: var(--black-opacity-40)
+}
+
+.Button_blackSecondary:hover {
+    background-color: var(--black-opacity-50)
+}
+
+.Button_blackSecondary.Button_disabled {
+    background-color: var(--black-opacity-50);
+    color: var(--white-opacity-50)
+}
+
+
+.Button_blackSecondary.Button_disabled svg,
+.Button_blackSecondary.Button_disabled svg * {
+    fill: var(--white-opacity-50)
+}
+
+.Button_blackPrimary {
+    background-color: var(--black-opacity-100)
+}
+
+.Button_blackPrimary:hover {
+    background-color: var(--neutral-gray-8)
+}
+
+.Button_btnIconLeft svg {
+    margin-right: .5rem
+}
+
+.Button_btnSmall.Button_btnIconLeft svg,
+.Button_btnVerySmall.Button_btnIconLeft svg {
+    margin-right: .25rem
+}
+
+.Button_btnIconRight svg {
+    margin-left: .5rem
+}
+
+.Button_btnSmall.Button_btnIconRight svg,
+.Button_btnVerySmall.Button_btnIconLeft svg {
+    margin-left: .25rem
+}
+
+.Button_btnLarge.Button_btnIconLeft svg,
+.Button_btnLarge.Button_btnIconRight svg,
+.Button_btnMedium.Button_btnIconLeft svg,
+.Button_btnMedium.Button_btnIconRight svg,
+.Button_btnVeryLarge.Button_btnIconLeft svg,
+.Button_btnVeryLarge.Button_btnIconRight svg {
+    height: 1.5rem;
+    width: 1.5rem
+}
+
+.Button_btnSmall.Button_btnIconLeft svg,
+.Button_btnSmall.Button_btnIconRight svg {
+    height: 1.25rem;
+    width: 1.25rem
+}
+
+.Button_btnVerySmall.Button_btnIconLeft svg,
+.Button_btnVerySmall.Button_btnIconRight svg {
+    height: 1rem;
+    width: 1rem
+}
+
+.Styles_navigation {
+    display: none;
+    position: relative
+}
+
+@media (min-width:769px) {
+    .Styles_navigation {
+        display: block
+    }
+}
+
+.Styles_navigation:after {
+    background-color: transparent;
+    bottom: 100%;
+    height: 18px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    --tw-content: "";
+    content: var(--tw-content)
+}
+
+.Styles_navigation .styles_subMenu {
+    animation: styles_fadeDown .2s linear 0s forwards;
+    border-radius: 1rem;
+    box-shadow: 0 calc(100vh + 32px) 0 100vh rgba(9, 13, 20, .698);
+    display: none;
+    left: -210px;
+    position: absolute;
+    width: 1240px;
+    z-index: 2
+}
+
+
+@keyframes styles_fadeDown {
+    0% {
+        opacity: 0;
+        top: 44px
+    }
+
+    to {
+        opacity: 1;
+        top: 52px
+    }
+}
+
+.Styles_navigation .styles_subMenu .styles_subMenuWrap {
+    display: flex;
+    position: relative;
+    z-index: 2
+}
+
+.Styles_navigation:hover .styles_overlay,
+.Styles_navigation:hover .styles_subMenu {
+    display: block
+}
+
+.styles_subMenuLeft {
+    background-color: var(--neutral-white);
+    border-radius: 1rem;
+    min-height: 558px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: relative;
+    width: 344px
+}
+
+.styles_subMenuLeft .styles_listCategory {
+    max-height: 608px;
+    overflow: auto
+}
+
+.styles_subMenuLeft .styles_listCategory::-webkit-scrollbar {
+    width: .25rem
+}
+
+.styles_subMenuLeft .styles_listCategory::-webkit-scrollbar-track-piece {
+    background-color: var(--neutral-gray-2);
+    border-radius: 1rem
+}
+
+.styles_subMenuLeft .styles_listCategory::-webkit-scrollbar-thumb {
+    background-color: var(--neutral-gray-4);
+    border-radius: 1rem
+}

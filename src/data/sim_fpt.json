@@ -1,0 +1,256 @@
+{
+    "sim_fpt": [
+        {
+            "id": 1,
+            "name": "5G siêu mượt",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Sim FPT F79 1T",
+                    "price": "179.000đ",
+                    "data": "3GB Data/Day",
+                    "description": "",
+                    "link": "https://fptshop.com.vn/sim-so-dep/794001125022",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 2,
+                    "name": "Sim FPT Bao Rẻ 1T",
+                    "price": "189.000đ",
+                    "data": "5GB Data/Day",
+                    "description": "",
+                    "link": "https://fptshop.com.vn/sim-so-dep/121053331920",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 3,
+                    "name": "Sim FPT Bao Nét 1T",
+                    "price": "199.000đ",
+                    "data": "6GB Data/Day",
+                    "description": "",
+                    "link": "https://fptshop.com.vn/sim-so-dep/582122234146",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 4,
+                    "name": "Sim FPT F99 1T",
+                    "price": "199.000đ",
+                    "data": "5GB Data/Day",
+                    "description": "",
+                    "link": "https://fptshop.com.vn/sim-so-dep/328669626800",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 5,
+                    "name": "Sim FPT F99S 1T",
+                    "price": "199.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Miễn phí data truy cập Youtube, Facebook, Tiktok",
+                    "link": "https://fptshop.com.vn/sim-so-dep/216002128368",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 6,
+                    "name": "Sim FPT F99T 1T",
+                    "price": "199.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "",
+                    "link": "https://fptshop.com.vn/sim-so-dep/353436827434",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 7,
+                    "name": "Sim FPT Bao Xịn 1T",
+                    "price": "209.000đ",
+                    "data": "8GB Data/Day",
+                    "description": "",
+                    "link": "https://fptshop.com.vn/sim-so-dep/547047834425",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 8,
+                    "name": "Sim FPT F150 1T",
+                    "price": "250.000đ",
+                    "data": "5GB Data/Day",
+                    "description": "Miễn phí data truy cập ứng dụng Youtube, Tiktok, Facebook trong 01 chu kỳ (Mỗi thuê bao chỉ được ưu đãi miễn phí data truy cập các ứng dụng trên 1 lần khi đăng ký gói lần đầu, không áp dụng cho gia hạn)",
+                    "link": "https://fptshop.com.vn/sim-so-dep/791489736691",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 9,
+                    "name": "Sim FPT F299 1T",
+                    "price": "399.000đ",
+                    "data": "10GB Data/Day",
+                    "description": "Miễn phí data truy cập Netflix, Tiktok, Youtube, Facebook",
+                    "link": "https://fptshop.com.vn/sim-so-dep/748810913551",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 10,
+                    "name": "Sim FPT F399 1T",
+                    "price": "499.000đ",
+                    "data": "20GB Data/Day",
+                    "description": "Miễn phí data truy cập Netflix, Tiktok, Youtube, Facebook",
+                    "link": "https://fptshop.com.vn/sim-so-dep/325111314114",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Xem phim tẹt ga",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Sim FPT VieON99 1T",
+                    "price": "199.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Tặng tài khoản VIP và miễn phí data truy cập ứng dụng VieON xem phim thoả thích.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/332262410274",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 2,
+                    "name": "Sim FPT VieON119 1T",
+                    "price": "219.000đ",
+                    "data": "4GB Data/Day",
+                    "description": "Tặng tài khoản VIP và miễn phí data truy cập ứng dụng VieON xem phim thoả thích.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/886748410803",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 3,
+                    "name": "Sim FPT VieON99 3T",
+                    "price": "397.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Tặng tài khoản VIP và miễn phí data truy cập ứng dụng VieON xem phim thoả thích.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/152765810408",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 4,
+                    "name": "Sim FPT VieON119 3T",
+                    "price": "457.000đ",
+                    "data": "4GB Data/Day",
+                    "description": "Tặng tài khoản VIP và miễn phí data truy cập ứng dụng VieON xem phim thoả thích.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/660280710892",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 5,
+                    "name": "Sim FPT VieON99 6T",
+                    "price": "694.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Tặng tài khoản VIP và miễn phí data truy cập ứng dụng VieON xem phim thoả thích.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/304289010480",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 6,
+                    "name": "Sim FPT VieON119 6T",
+                    "price": "814.000đ",
+                    "data": "4GB Data/Day",
+                    "description": "Tặng tài khoản VIP và miễn phí data truy cập ứng dụng VieON xem phim thoả thích.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/127376710989",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 7,
+                    "name": "Sim FPT VieON99 12T",
+                    "price": "1.288.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Tặng tài khoản VIP và miễn phí data truy cập ứng dụng VieON xem phim thoả thích.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/357419910685",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 8,
+                    "name": "Sim FPT VieON 119 12T",
+                    "price": "1.528.000đ",
+                    "data": "4GB Data/Day",
+                    "description": "Tặng tài khoản VIP và miễn phí data truy cập ứng dụng VieON xem phim thoả thích.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/899088211276",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Tư vấn sức khoẻ online",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Sim FPT Y Tế 1T",
+                    "price": "229.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Tặng 2 lượt tư vấn sức khoẻ với bác sĩ chuyên khoa qua ứng dụng TrueDoc.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/764902730525",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 2,
+                    "name": "Sim FPT Y Tế VIP 1T",
+                    "price": "279.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Tặng 3 lượt tư vấn sức khoẻ với bác sĩ chuyên khoa qua ứng dụng TrueDoc.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/330615731435",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 3,
+                    "name": "Sim FPT Y Tế 3T",
+                    "price": "487.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Tặng 6 lượt tư vấn sức khoẻ với bác sĩ chuyên khoa qua ứng dụng TrueDoc.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/800633530838",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 4,
+                    "name": "Sim FPT Y Tế VIP 3T",
+                    "price": "637.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Tặng 9 lượt tư vấn sức khoẻ với bác sĩ chuyên khoa qua ứng dụng TrueDoc.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/512172231742",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 5,
+                    "name": "Sim FPT Y Tế 6T",
+                    "price": "874.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Không giới hạn lượt tư vấn sức khoẻ với bác sĩ chuyên khoa qua ứng dụng TrueDoc.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/511710731061",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 6,
+                    "name": "Sim FPT Y Tế VIP 6T",
+                    "price": "1.174.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Không giới hạn lượt tư vấn sức khoẻ với bác sĩ chuyên khoa qua ứng dụng TrueDoc.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/601697731892",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 7,
+                    "name": "Sim FPT Y Tế 12T",
+                    "price": "1.648.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Không giới hạn lượt tư vấn sức khoẻ với bác sĩ chuyên khoa qua ứng dụng TrueDoc.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/874762131292",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                },
+                {
+                    "id": 8,
+                    "name": "Sim FPT Y Tế VIP 12T",
+                    "price": "2.248.000đ",
+                    "data": "2GB Data/Day",
+                    "description": "Không giới hạn lượt tư vấn sức khoẻ với bác sĩ chuyên khoa qua ứng dụng TrueDoc.",
+                    "link": "https://fptshop.com.vn/sim-so-dep/215727832029",
+                    "icon": "https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/estore-v2/img/icons/sim_card.png"
+                }
+            ]
+        }
+    ]
+}

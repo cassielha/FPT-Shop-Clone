@@ -1,0 +1,198 @@
+{
+    "lny_sale_off": [
+        {
+            "link": "https://fptshop.com.vn/collection/tet-giao-tet-tan-nha",
+            "alt": "Giao tết tận nhà, hàng hiệu giảm tất",
+            "img_pc_srcset": "https://cdn2.fptshop.com.vn/unsafe/480x0/filters:format(webp):quality(75)/400x454_c3cfedbc1e.png 1x, https://cdn2.fptshop.com.vn/unsafe/828x0/filters:format(webp):quality(75)/400x454_c3cfedbc1e.png 2x",
+            "img_pc_src": "https://cdn2.fptshop.com.vn/unsafe/828x0/filters:format(webp):quality(75)/400x454_c3cfedbc1e.png",
+            "img_mb_srcset": "https://cdn2.fptshop.com.vn/unsafe/750x0/filters:format(webp):quality(75)/343x446_29761e59e0.png 1x, https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/343x446_29761e59e0.png 2x",
+            "img_mb_src": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/343x446_29761e59e0.png",
+            "categories": [
+                {
+                    "name": "Công nghệ",
+                    "items": [
+                        {
+                            "name": "Laptop",
+                            "link": "https://fptshop.com.vn/collection/tet-cong-nghe?categories=tet-laptop",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/laptop_2d6cbcf724.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/laptop_2d6cbcf724.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/laptop_2d6cbcf724.png"
+                        },
+                        {
+                            "name": "Màn hình",
+                            "link": "https://fptshop.com.vn/collection/tet-cong-nghe?categories=tet-man-hinh",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/man_hinh_f08c0af67c.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/man_hinh_f08c0af67c.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/man_hinh_f08c0af67c.png"
+                        },
+                        {
+                            "name": "Điện thoại",
+                            "link": "https://fptshop.com.vn/collection/tet-cong-nghe?categories=tet-dien-thoai",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/dien_thoai_9b3d76d29b.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/dien_thoai_9b3d76d29b.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/dien_thoai_9b3d76d29b.png"
+                        },
+                        {
+                            "name": "Máy tính bảng",
+                            "link": "https://fptshop.com.vn/collection/tet-cong-nghe?categories=tet-may-tinh-bang",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/may_tinh_bang_b7936f6433.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_tinh_bang_b7936f6433.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_tinh_bang_b7936f6433.png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Phụ Kiện",
+                    "items": [
+                        {
+                            "name": "Máy chiếu",
+                            "link": "https://fptshop.com.vn/collection/tet-phu-kien?categories=tet-may-chieu",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/may_chieu_9468256ea4.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_chieu_9468256ea4.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_chieu_9468256ea4.png"
+                        },
+                        {
+                            "name": "Đồng hồ",
+                            "link": "https://fptshop.com.vn/collection/tet-phu-kien?categories=tet-dong-ho",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/dong_ho_ab9dbd18ff.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/dong_ho_ab9dbd18ff.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/dong_ho_ab9dbd18ff.png"
+                        },
+                        {
+                            "name": "Loa",
+                            "link": "https://fptshop.com.vn/collection/tet-phu-kien?categories=tet-loa",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/loa_e26fd9a417.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/loa_e26fd9a417.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/loa_e26fd9a417.png"
+                        },
+                        {
+                            "name": "Tai nghe",
+                            "link": "https://fptshop.com.vn/collection/tet-phu-kien?categories=tet-tai-nghe",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/tai_nghe_3ba232f7e8.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/tai_nghe_3ba232f7e8.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/tai_nghe_3ba232f7e8.png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Nghiện nhà",
+                    "items": [
+                        {
+                            "name": "Máy sưởi",
+                            "link": "https://fptshop.com.vn/collection/tet-nghien-nha?categories=tet-may-suoi",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/May_suoi_46cf2540a3.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/May_suoi_46cf2540a3.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/May_suoi_46cf2540a3.png"
+                        },
+                        {
+                            "name": "Máy lọc không khí",
+                            "link": "https://fptshop.com.vn/collection/tet-nghien-nha?categories=tet-may-loc-khong-khi",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/may_loc_kk_614d8654d3.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_loc_kk_614d8654d3.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_loc_kk_614d8654d3.png"
+                        },
+                        {
+                            "name": "Máy sấy",
+                            "link": "https://fptshop.com.vn/collection/tet-nghien-nha?categories=tet-may-say",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/may_say_f19a7c74a8.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_say_f19a7c74a8.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_say_f19a7c74a8.png"
+                        },
+                        {
+                            "name": "Máy giặt",
+                            "link": "https://fptshop.com.vn/collection/tet-nghien-nha?categories=tet-may-giat",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/may_giat_b9ccdef04a.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_giat_b9ccdef04a.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/may_giat_b9ccdef04a.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "link": "https://fptshop.com.vn/collection/tet-bat-tet-tuom-tat",
+            "alt": "Bắt Tết tươm tất",
+            "img_pc_srcset": "https://cdn2.fptshop.com.vn/unsafe/480x0/filters:format(webp):quality(75)/400x454_1_ac33e9d2b1.png 1x, https://cdn2.fptshop.com.vn/unsafe/828x0/filters:format(webp):quality(75)/400x454_1_ac33e9d2b1.png 2x",
+            "img_pc_src": "https://cdn2.fptshop.com.vn/unsafe/828x0/filters:format(webp):quality(75)/400x454_1_ac33e9d2b1.png",
+            "img_mb_srcset": "https://cdn2.fptshop.com.vn/unsafe/750x0/filters:format(webp):quality(75)/343x446_1_c30abe8f31.png 1x, https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/343x446_1_c30abe8f31.png 2x",
+            "img_mb_src": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/343x446_1_c30abe8f31.png",
+            "categories": [
+                {
+                    "name": "Tivi",
+                    "items": [
+                        {
+                            "name": "Thương hiệu khác",
+                            "link": "https://fptshop.com.vn/collection/tet-tivi?categories=tet-thuong-hieu-khac",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/thuong_hieu_khac_019838dc44.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/thuong_hieu_khac_019838dc44.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/thuong_hieu_khac_019838dc44.png"
+                        },
+                        {
+                            "name": "Xiaomi",
+                            "link": "https://fptshop.com.vn/collection/tet-tivi?categories=tet-xiaomi",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/xiaomi_c3a3c26f82.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/xiaomi_c3a3c26f82.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/xiaomi_c3a3c26f82.png"
+                        },
+                        {
+                            "name": "Samsung",
+                            "link": "https://fptshop.com.vn/collection/tet-tivi?categories=tet-samsung",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/Samsung_1_a240de61cf.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Samsung_1_a240de61cf.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Samsung_1_a240de61cf.png"
+                        },
+                        {
+                            "name": "LG",
+                            "link": "https://fptshop.com.vn/collection/tet-tivi?categories=tet-lg",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/LG_1_d9a133ee75.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/LG_1_d9a133ee75.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/LG_1_d9a133ee75.png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tủ lạnh",
+                    "items": [
+                        {
+                            "name": "LG",
+                            "link": "https://fptshop.com.vn/collection/tet-tu-lanh?categories=tet-lg",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/LG_1e3c557ded.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/LG_1e3c557ded.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/LG_1e3c557ded.png"
+                        },
+                        {
+                            "name": "Toshiba",
+                            "link": "https://fptshop.com.vn/collection/tet-tu-lanh?categories=tet-toshiba",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/small/Toshiba_a1b6fbc10c.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/small/Toshiba_a1b6fbc10c.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/small/Toshiba_a1b6fbc10c.png"
+                        },
+                        {
+                            "name": "Samsung",
+                            "link": "https://fptshop.com.vn/collection/tet-tu-lanh?categories=tet-samsung",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/Samsung_264fdc092b.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Samsung_264fdc092b.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Samsung_264fdc092b.png"
+                        },
+                        {
+                            "name": "Sharp",
+                            "link": "https://fptshop.com.vn/collection/tet-tu-lanh?categories=tet-sharp",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/sharp_18a0e21558.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/sharp_18a0e21558.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/sharp_18a0e21558.png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Góc tiện ích",
+                    "items": [
+                        {
+                            "name": "Máy massage",
+                            "link": "https://fptshop.com.vn/collection/tet-goc-tien-ich?categories=tet-may-massage",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/May_massage_9e03100039.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/May_massage_9e03100039.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/May_massage_9e03100039.png"
+                        },
+                        {
+                            "name": "Ghế ô tô trẻ em",
+                            "link": "https://fptshop.com.vn/collection/tet-goc-tien-ich?categories=tet-ghe-tre-em",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/Ghe_tre_em_ee0e89c194.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Ghe_tre_em_ee0e89c194.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Ghe_tre_em_ee0e89c194.png"
+                        },
+                        {
+                            "name": "Nồi chiên",
+                            "link": "https://fptshop.com.vn/collection/tet-goc-tien-ich?categories=tet-noi-chien",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/Noi_chien_175504f954.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Noi_chien_175504f954.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Noi_chien_175504f954.png"
+                        },
+                        {
+                            "name": "Camera",
+                            "link": "https://fptshop.com.vn/collection/tet-goc-tien-ich?categories=tet-camera",
+                            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/128x0/filters:format(webp):quality(75)/Camera_53d4524751.png 1x, https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Camera_53d4524751.png 2x",
+                            "img_src": "https://cdn2.fptshop.com.vn/unsafe/256x0/filters:format(webp):quality(75)/Camera_53d4524751.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
