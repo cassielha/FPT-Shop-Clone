@@ -4,21 +4,21 @@
       "name": "Gợi ý đón Tết đủ đầy",
       "link": null,
       "icon_srcset": "https://cdn2.fptshop.com.vn/unsafe/32x0/filters:format(webp):quality(75)/small/icon_goi_y_1_1e24bffa75.png 1x, https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/small/icon_goi_y_1_1e24bffa75.png 2x",
-      "icon_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/icon_goi_y_1_1e24bffa75.png",
+      "icon_src": "./src/assets/images/icon_goi_y_1_1e24bffa75.png",
       "has_arrow": true
     },
     {
       "name": "Thu cũ iPhone giá tốt",
       "link": "https://fptshop.com.vn/tin-tuc/tin-khuyen-mai/fpt-shop-cam-ket-thu-cu-iphone-gia-tot-nhat-chenh-la-bu-ngay-194751?utm_source=header&utm_medium=thu-cu-iphone&utm_campaign=click",
       "icon_srcset": "https://cdn2.fptshop.com.vn/unsafe/32x0/filters:format(webp):quality(75)/small/icon_ai_1_8fbca810f2.png 1x, https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/small/icon_ai_1_8fbca810f2.png 2x",
-      "icon_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/icon_ai_1_8fbca810f2.png",
+      "icon_src": "./src/assets/images/icon_ai_1_8fbca810f2.png",
       "has_arrow": false
     },
     {
       "name": "Lì xì bảo hành trọn đời",
       "link": "https://fptshop.com.vn/tin-tuc/tin-khuyen-mai/bao-hanh-1-doi-1-tron-doi-tai-fpt-shop-giai-phap-an-tam-tuyet-doi-cho-khach-hang-186016",
       "icon_srcset": "https://cdn2.fptshop.com.vn/unsafe/32x0/filters:format(webp):quality(75)/icon_apple_ccd2f88c95.png 1x, https://cdn2.fptshop.com.vn/unsafe/64x0/filters:format(webp):quality(75)/icon_apple_ccd2f88c95.png 2x",
-      "icon_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/icon_apple_ccd2f88c95(1).png",
+      "icon_src": "./src/assets/images/icon_apple_ccd2f88c95(1).png",
       "has_arrow": false
     }
   ]

@@ -1,13 +1,13 @@
-import socialLinksData from '../../data/social_links.json';
-import hotlinesData from '../../data/hotlines.json';
-import aboutUsData from '../../data/about-us.json';
-import partnerData from '../../data/partner.json';
+import socialLinksData from '../data/social_links.json';
+import hotlinesData from '../data/hotlines.json';
+import aboutUsData from '../data/about-us.json';
+import partnerData from '../data/partner.json';
 
-import FooterEcoSystem from './footer/FooterEcoSystem';
-import FooterCopyright from './footer/FooterCopyright';
-import FooterTopSection from './footer/FooterTopSection';
-import FooterSocialHotline from './footer/FooterSocialHotline';
-import FooterMoreInfo from './footer/FooterMoreInfo';
+import FooterEcoSystem from '../components/footer/FooterEcoSystem';
+import FooterCopyright from '../components/footer/FooterCopyright';
+import FooterTopSection from '../components/footer/FooterTopSection';
+import FooterSocialHotline from '../components/footer/FooterSocialHotline';
+import FooterMoreInfo from '../components/footer/FooterMoreInfo';
 
 const Footer = () => {
     const { social_links } = socialLinksData;

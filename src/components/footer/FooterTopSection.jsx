@@ -23,3 +23,5 @@ const FooterTopSection = () => {
         </div>
     )
 }
+
+export default FooterTopSection

@@ -1,4 +1,4 @@
-import ecoSystemData from '../../../data/eco_system.json';
+import ecoSystemData from '../../data/eco_system.json';
 
 const FooterEcoSystem = () => {
     const { eco_system } = ecoSystemData;
@@ -27,3 +27,6 @@ const FooterEcoSystem = () => {
 
     )
 }
+
+
+export default FooterEcoSystem
