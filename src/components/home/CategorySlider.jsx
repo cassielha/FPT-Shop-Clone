@@ -33,14 +33,14 @@ const CategoryItem = ({ item }) => {
 
 /**
  * CategorySlider
- * @param {Object} categorySection - Danh mục sản phẩm
+ * @param {Object} data - Danh mục sản phẩm
  */
-const CategorySlider = ({ categorySection }) => {
+const CategorySlider = ({ data }) => {
     const wrapperRef = useRef(null);
     const swiperRef = useRef(null);
 
     useEffect(() => {
-        if (!wrapperRef.current || !categorySection.items.length) return;
+        if (!wrapperRef.current || !data.items.length) return;
 
         const swiperEl = wrapperRef.current.querySelector('.swiper');
         const nextBtn = wrapperRef.current.querySelector('.CarouselArrow_nextArrowDefault');
@@ -72,21 +72,21 @@ const CategorySlider = ({ categorySection }) => {
         return () => {
             swiperRef.current?.destroy(true, true);
         };
-    }, [categorySection.items]);
+    }, [data.items]);
 
-    if (!categorySection.items?.length) return null;
+    if (!data.items?.length) return null;
 
     return (
         <div className="pc:container pc:px-5 pc:py-2.5">
             <div className="pc:rounded-2xl" style={{ backgroundColor: 'white' }}>
                 <div className="py-3 pc:px-6 pc:py-5">
                     <p className="mb-3 text-textOnWhitePrimary mb:pl-4 pc:mb-5 pc:h6-semibold l7-semibold">
-                        {categorySection.name}
+                        {data.name}
                     </p>
                     <div className="Slider_sliderWrapper" ref={wrapperRef}>
                         <div className="swiper mb:pl-4 !overflow-hidden">
                             <div className="swiper-wrapper !flex !flex-row !flex-wrap">
-                                {categorySection.items.map((item, index) => (
+                                {data.items.map((item, index) => (
                                     <div key={index} className="swiper-slide">
                                         <CategoryItem item={item} />
                                     </div>

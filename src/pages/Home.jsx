@@ -2,10 +2,18 @@ import Layout from '../layout/Layout';
 import BannerSlider from '../components/home/BannerSlider';
 import HomeCardSlider from '../components/home/HomeCardSlider';
 import CategorySlider from '../components/home/CategorySlider';
+import UtilitiesServices from '../components/home/UtilitiesServices';
+import ServiceCommit from '../components/home/ServiceCommit';
+import LnySaleOff from '../components/home/LnySaleOff';
+import SimSlider from '../components/home/SimSlider';
 
 import Banner from '../data/banners.json';
 import HomeCard from '../data/home_cards.json';
 import Category from '../data/categories.json';
+import UtilitiesServicesData from '../data/utilities_services.json';
+import ServiceCommitData from '../data/service_commit.json';
+import LnySaleOffData from '../data/lny_sale_off.json';
+import SimFptData from '../data/sim_fpt.json';
 
 const findSection = (data, id) => data.find(section => section.id === id) ?? {};
 const Home = () => {
@@ -18,10 +26,14 @@ const Home = () => {
                     <BannerSlider bannerData={Banner.banners} />
                     <div className='relative z-1'>
                         <HomeCardSlider data={findSection(HomeCard.home_cards, 'cards')} slidesPerView={2} />
-                        <CategorySlider categorySection={findSection(Category.categories, 'categories')} />
-                        <CategorySlider categorySection={findSection(Category.categories, 'recommendations')} />
+                        <CategorySlider data={findSection(Category.categories, 'categories')} />
+                        <CategorySlider data={findSection(Category.categories, 'recommendations')} />
                         <HomeCardSlider data={findSection(HomeCard.home_cards, 'middle_cards')} slidesPerView={3} />
+                        <LnySaleOff items={LnySaleOffData.lny_sale_off} />
+                        <UtilitiesServices items={UtilitiesServicesData.utilities} />
                         <HomeCardSlider data={findSection(HomeCard.home_cards, 'payment_offers')} slidesPerView={3} />
+                        <SimSlider categories={SimFptData.sim_fpt} />
+                        <ServiceCommit items={ServiceCommitData.service_commit} />
                     </div>
                 </div>
             </Layout>
