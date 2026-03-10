@@ -1,6 +1,7 @@
 {
   "categories": [
     {
+      "id": 1,
       "title": "Bếp tiện nghi, Tết như ý",
       "products": [
         {
@@ -215,6 +216,7 @@
       ]
     },
     {
+      "id": 2,
       "title": "Nhà tinh tươm, năm mới hồng vận",
       "products": [
         {
@@ -449,6 +451,7 @@
       ]
     },
     {
+      "id": 3,
       "title": "Phụ kiện du xuân, Tết vui trọn vẹn",
       "products": [
         {

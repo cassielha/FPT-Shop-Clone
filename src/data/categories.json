@@ -1,100 +1,292 @@
 {
   "categories": [
     {
-      "name": "Điện thoại",
-      "link": "https://fptshop.com.vn/dien-thoai",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/dien_thoai_icon_cate_240938806d.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/dien_thoai_icon_cate_240938806d.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/dien_thoai_icon_cate_240938806d.png 2x"
+      "id": "categories",
+      "name": "Danh mục nổi bật",
+      "items": [
+        {
+          "name": "Điện thoại",
+          "link": "https://fptshop.com.vn/dien-thoai",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/dien_thoai_icon_cate_240938806d.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/dien_thoai_icon_cate_240938806d.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/dien_thoai_icon_cate_240938806d.png 2x"
+        },
+        {
+          "name": "Tivi",
+          "link": "https://fptshop.com.vn/tivi",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/Tivi_555055f921.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/Tivi_555055f921.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/Tivi_555055f921.png 2x"
+        },
+        {
+          "name": "Máy tính bảng",
+          "link": "https://fptshop.com.vn/may-tinh-bang",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_tinh_bang_ic_cate_dccb57ff5c.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_tinh_bang_ic_cate_dccb57ff5c.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_tinh_bang_ic_cate_dccb57ff5c.png 2x"
+        },
+        {
+          "name": "Tủ lạnh",
+          "link": "https://fptshop.com.vn/tu-lanh",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/Tu_lanh_c98d8f4550.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/Tu_lanh_c98d8f4550.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/Tu_lanh_c98d8f4550.png 2x"
+        },
+        {
+          "name": "Laptop",
+          "link": "https://fptshop.com.vn/may-tinh-xach-tay",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/laptop_ic_cate_47e7264bc7.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/laptop_ic_cate_47e7264bc7.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/laptop_ic_cate_47e7264bc7.png 2x"
+        },
+        {
+          "name": "Robot hút bụi",
+          "link": "https://fptshop.com.vn/robot-hut-bui",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/Robot_hut_bui_afe91583ea.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/Robot_hut_bui_afe91583ea.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/Robot_hut_bui_afe91583ea.png 2x"
+        },
+        {
+          "name": "Màn hình",
+          "link": "https://fptshop.com.vn/man-hinh",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/man_hinh_ic_cate_7663908793.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/man_hinh_ic_cate_7663908793.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/man_hinh_ic_cate_7663908793.png 2x"
+        },
+        {
+          "name": "Máy lọc nước",
+          "link": "https://fptshop.com.vn/may-loc-nuoc",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/May_loc_nuoc_4c6d335bd8.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/May_loc_nuoc_4c6d335bd8.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/May_loc_nuoc_4c6d335bd8.png 2x"
+        },
+        {
+          "name": "PC - Máy tính để bàn",
+          "link": "https://fptshop.com.vn/may-tinh-de-ban",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/pc_icon_cate_70489f2d29.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/pc_icon_cate_70489f2d29.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/pc_icon_cate_70489f2d29.png 2x"
+        },
+        {
+          "name": "Máy lọc không khí",
+          "link": "https://fptshop.com.vn/may-loc-khong-khi",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_loc_kk_ic_cate_9a77f25fcd.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_loc_kk_ic_cate_9a77f25fcd.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_loc_kk_ic_cate_9a77f25fcd.png 2x"
+        },
+        {
+          "name": "Phụ kiện",
+          "link": "https://fptshop.com.vn/phu-kien",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/phu_kien_ic_cate_ecae8ddd38.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/phu_kien_ic_cate_ecae8ddd38.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/phu_kien_ic_cate_ecae8ddd38.png 2x"
+        },
+        {
+          "name": "Máy giặt",
+          "link": "https://fptshop.com.vn/may-giat",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/May_giat_e060f40c8d.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/May_giat_e060f40c8d.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/May_giat_e060f40c8d.png 2x"
+        },
+        {
+          "name": "Sim FPT",
+          "link": "https://fptshop.com.vn/sim-fpt",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/sim_fpt_ic_cate_52dde72ae3.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/sim_fpt_ic_cate_52dde72ae3.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/sim_fpt_ic_cate_52dde72ae3.png 2x"
+        },
+        {
+          "name": "Thiết bị bếp",
+          "link": "https://fptshop.com.vn/thiet-bi-bep",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/thiet_bi_bep_ic_cate_492149f858.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/thiet_bi_bep_ic_cate_492149f858.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/thiet_bi_bep_ic_cate_492149f858.png 2x"
+        },
+        {
+          "name": "Đồng hồ thông minh",
+          "link": "https://fptshop.com.vn/smartwatch",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/watch_icon_cate_076ac5a936.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/watch_icon_cate_076ac5a936.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/watch_icon_cate_076ac5a936.png 2x"
+        },
+        {
+          "name": "Máy cũ giá rẻ",
+          "link": "https://fptshop.com.vn/may-doi-tra",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_doi_tra_icon_cate_f272970ca9.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_doi_tra_icon_cate_f272970ca9.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_doi_tra_icon_cate_f272970ca9.png 2x"
+        }
+      ]
     },
     {
-      "name": "Tivi",
-      "link": "https://fptshop.com.vn/tivi",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/Tivi_555055f921.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/Tivi_555055f921.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/Tivi_555055f921.png 2x"
-    },
-    {
-      "name": "Máy tính bảng",
-      "link": "https://fptshop.com.vn/may-tinh-bang",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_tinh_bang_ic_cate_dccb57ff5c.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_tinh_bang_ic_cate_dccb57ff5c.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_tinh_bang_ic_cate_dccb57ff5c.png 2x"
-    },
-    {
-      "name": "Tủ lạnh",
-      "link": "https://fptshop.com.vn/tu-lanh",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/Tu_lanh_c98d8f4550.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/Tu_lanh_c98d8f4550.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/Tu_lanh_c98d8f4550.png 2x"
-    },
-    {
-      "name": "Laptop",
-      "link": "https://fptshop.com.vn/may-tinh-xach-tay",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/laptop_ic_cate_47e7264bc7.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/laptop_ic_cate_47e7264bc7.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/laptop_ic_cate_47e7264bc7.png 2x"
-    },
-    {
-      "name": "Robot hút bụi",
-      "link": "https://fptshop.com.vn/robot-hut-bui",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/Robot_hut_bui_afe91583ea.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/Robot_hut_bui_afe91583ea.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/Robot_hut_bui_afe91583ea.png 2x"
-    },
-    {
-      "name": "Màn hình",
-      "link": "https://fptshop.com.vn/man-hinh",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/man_hinh_ic_cate_7663908793.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/man_hinh_ic_cate_7663908793.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/man_hinh_ic_cate_7663908793.png 2x"
-    },
-    {
-      "name": "Máy lọc nước",
-      "link": "https://fptshop.com.vn/may-loc-nuoc",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/May_loc_nuoc_4c6d335bd8.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/May_loc_nuoc_4c6d335bd8.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/May_loc_nuoc_4c6d335bd8.png 2x"
-    },
-    {
-      "name": "PC - Máy tính để bàn",
-      "link": "https://fptshop.com.vn/may-tinh-de-ban",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/pc_icon_cate_70489f2d29.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/pc_icon_cate_70489f2d29.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/pc_icon_cate_70489f2d29.png 2x"
-    },
-    {
-      "name": "Máy lọc không khí",
-      "link": "https://fptshop.com.vn/may-loc-khong-khi",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_loc_kk_ic_cate_9a77f25fcd.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_loc_kk_ic_cate_9a77f25fcd.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_loc_kk_ic_cate_9a77f25fcd.png 2x"
-    },
-    {
-      "name": "Phụ kiện",
-      "link": "https://fptshop.com.vn/phu-kien",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/phu_kien_ic_cate_ecae8ddd38.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/phu_kien_ic_cate_ecae8ddd38.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/phu_kien_ic_cate_ecae8ddd38.png 2x"
-    },
-    {
-      "name": "Máy giặt",
-      "link": "https://fptshop.com.vn/may-giat",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/May_giat_e060f40c8d.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/May_giat_e060f40c8d.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/May_giat_e060f40c8d.png 2x"
-    },
-    {
-      "name": "Sim FPT",
-      "link": "https://fptshop.com.vn/sim-fpt",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/sim_fpt_ic_cate_52dde72ae3.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/sim_fpt_ic_cate_52dde72ae3.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/sim_fpt_ic_cate_52dde72ae3.png 2x"
-    },
-    {
-      "name": "Thiết bị bếp",
-      "link": "https://fptshop.com.vn/thiet-bi-bep",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/thiet_bi_bep_ic_cate_492149f858.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/thiet_bi_bep_ic_cate_492149f858.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/thiet_bi_bep_ic_cate_492149f858.png 2x"
-    },
-    {
-      "name": "Đồng hồ thông minh",
-      "link": "https://fptshop.com.vn/smartwatch",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/watch_icon_cate_076ac5a936.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/watch_icon_cate_076ac5a936.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/watch_icon_cate_076ac5a936.png 2x"
-    },
-    {
-      "name": "Máy cũ giá rẻ",
-      "link": "https://fptshop.com.vn/may-doi-tra",
-      "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_doi_tra_icon_cate_f272970ca9.png",
-      "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_doi_tra_icon_cate_f272970ca9.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_doi_tra_icon_cate_f272970ca9.png 2x"
+      "id": "recommendations",
+      "name": "Gợi ý cho bạn",
+      "items": [
+        {
+          "name": "Máy lạnh - Điều hòa",
+          "link": "https://fptshop.com.vn/may-lanh-dieu-hoa",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_lanh_dieu_hoa_ic_cate_204819f085.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_lanh_dieu_hoa_ic_cate_204819f085.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_lanh_dieu_hoa_ic_cate_204819f085.png 2x"
+        },
+        {
+          "name": "Loa",
+          "link": "https://fptshop.com.vn/phu-kien/loa",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/Loa_0f8245ccc9.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/Loa_0f8245ccc9.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/Loa_0f8245ccc9.png 2x"
+        },
+        {
+          "name": "Máy sấy quần áo",
+          "link": "https://fptshop.com.vn/may-say-quan-ao",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/May_say_9f23e8cdbf.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/May_say_9f23e8cdbf.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/May_say_9f23e8cdbf.png 2x"
+        },
+        {
+          "name": "Sạc & Cáp",
+          "link": "https://fptshop.com.vn/phu-kien/sac-cap",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_sac_cap_b45959a879.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_sac_cap_b45959a879.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_sac_cap_b45959a879.png 2x"
+        },
+        {
+          "name": "Điện gia dụng",
+          "link": "https://fptshop.com.vn/dien-gia-dung",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/dien_gia_dung_ic_cate_3332cedd8d.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/dien_gia_dung_ic_cate_3332cedd8d.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/dien_gia_dung_ic_cate_3332cedd8d.png 2x"
+        },
+        {
+          "name": "Tai nghe",
+          "link": "https://fptshop.com.vn/phu-kien/tai-nghe",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_tai_nghe_27a1fc19d1.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_tai_nghe_27a1fc19d1.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_tai_nghe_27a1fc19d1.png 2x"
+        },
+        {
+          "name": "Quạt máy",
+          "link": "https://fptshop.com.vn/quat",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/quat_ic_cate_4bf361e783.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/quat_ic_cate_4bf361e783.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/quat_ic_cate_4bf361e783.png 2x"
+        },
+        {
+          "name": "Sạc dự phòng",
+          "link": "https://fptshop.com.vn/phu-kien/sac-du-phong",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_sac_du_phong_b161bd7253.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/gycb_sac_du_phong_b161bd7253.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/gycb_sac_du_phong_b161bd7253.png 2x"
+        },
+        {
+          "name": "Quạt điều hòa",
+          "link": "https://fptshop.com.vn/quat-dieu-hoa",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/quat_dieu_hoa_ic_cate_b7c610abb3.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/quat_dieu_hoa_ic_cate_b7c610abb3.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/quat_dieu_hoa_ic_cate_b7c610abb3.png 2x"
+        },
+        {
+          "name": "Ốp lưng & Bao da",
+          "link": "https://fptshop.com.vn/phu-kien/bao-da-op-lung",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_op_lung_8bce5a12b8.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_op_lung_8bce5a12b8.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_op_lung_8bce5a12b8.png 2x"
+        },
+        {
+          "name": "Nồi chiên không dầu",
+          "link": "https://fptshop.com.vn/dien-gia-dung/noi-chien",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/noi_chien_ic_cate_8b4f236f11.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/noi_chien_ic_cate_8b4f236f11.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/noi_chien_ic_cate_8b4f236f11.png 2x"
+        },
+        {
+          "name": "Chuột",
+          "link": "https://fptshop.com.vn/phu-kien/chuot",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_chuot_83fa9c18cc.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/gycb_chuot_83fa9c18cc.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/gycb_chuot_83fa9c18cc.png 2x"
+        },
+        {
+          "name": "Nồi cơm điện",
+          "link": "https://fptshop.com.vn/noi-com-dien",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/noi_com_dien_ic_cate_76de187736.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/noi_com_dien_ic_cate_76de187736.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/noi_com_dien_ic_cate_76de187736.png 2x"
+        },
+        {
+          "name": "Bàn phím",
+          "link": "https://fptshop.com.vn/phu-kien/ban-phim",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_ban_phim_1ee0e70401.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_ban_phim_1ee0e70401.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_ban_phim_1ee0e70401.png 2x"
+        },
+        {
+          "name": "Sinh tố - Xay vắt ép",
+          "link": "https://fptshop.com.vn/sinh-to-xay-ep",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/xay_vat_ep_ic_cate_87e7dd0e06.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/xay_vat_ep_ic_cate_87e7dd0e06.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/xay_vat_ep_ic_cate_87e7dd0e06.png 2x"
+        },
+        {
+          "name": "Ổ cứng di động",
+          "link": "https://fptshop.com.vn/phu-kien/o-cung-di-dong",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_o_cung_di_dong_d7440a3726.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_o_cung_di_dong_d7440a3726.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_o_cung_di_dong_d7440a3726.png 2x"
+        },
+        {
+          "name": "Máy hút ẩm",
+          "link": "https://fptshop.com.vn/may-hut-am",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_hut_bui_ic_cate_d0646a5a67.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_hut_bui_ic_cate_d0646a5a67.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_hut_bui_ic_cate_d0646a5a67.png 2x"
+        },
+        {
+          "name": "Cáp chuyển đổi",
+          "link": "https://fptshop.com.vn/phu-kien/sac-cap?sort=noi-bat&loai-san-pham=hub-chuyen-doi",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_hub_chuyen_doi_f66ba50acf.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/gycb_hub_chuyen_doi_f66ba50acf.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/gycb_hub_chuyen_doi_f66ba50acf.png 2x"
+        },
+        {
+          "name": "Máy massage",
+          "link": "https://fptshop.com.vn/may-massage",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_massage_ic_cate_43e450b96b.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_massage_ic_cate_43e450b96b.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_massage_ic_cate_43e450b96b.png 2x"
+        },
+        {
+          "name": "Bút cảm ứng",
+          "link": "https://fptshop.com.vn/phu-kien/but-cam-ung",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_but_cam_ung_33ee874322.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/small/gycb_but_cam_ung_33ee874322.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/small/gycb_but_cam_ung_33ee874322.png 2x"
+        },
+        {
+          "name": "Máy in",
+          "link": "https://fptshop.com.vn/may-in",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_in_ic_cate_aab60e2318.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_in_ic_cate_aab60e2318.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_in_ic_cate_aab60e2318.png 2x"
+        },
+        {
+          "name": "Balo & Túi xách",
+          "link": "https://fptshop.com.vn/phu-kien/balo-tui-xach",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_balo_73e09fe395.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_balo_73e09fe395.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_balo_73e09fe395.png 2x"
+        },
+        {
+          "name": "Máy nước nóng",
+          "link": "https://fptshop.com.vn/may-nuoc-nong",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/may_nuoc_nong_ic_cate_2de78b256b.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/may_nuoc_nong_ic_cate_2de78b256b.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/may_nuoc_nong_ic_cate_2de78b256b.png 2x"
+        },
+        {
+          "name": "Thẻ nhớ",
+          "link": "https://fptshop.com.vn/phu-kien/the-nho",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_the_nho_be71c2b08f.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_the_nho_be71c2b08f.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_the_nho_be71c2b08f.png 2x"
+        },
+        {
+          "name": "Cây nước nóng lạnh",
+          "link": "https://fptshop.com.vn/cay-nuoc-nong-lanh",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/cay_nuoc_nong_lanh_ic_cate_e4ffcbf114.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/cay_nuoc_nong_lanh_ic_cate_e4ffcbf114.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/cay_nuoc_nong_lanh_ic_cate_e4ffcbf114.png 2x"
+        },
+        {
+          "name": "Camera hành động",
+          "link": "https://fptshop.com.vn/camera/camera-hanh-dong",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_camera_f1b54c4353.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_camera_f1b54c4353.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_camera_f1b54c4353.png 2x"
+        },
+        {
+          "name": "Camera an ninh",
+          "link": "https://fptshop.com.vn/camera",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/camera_ic_cate_30cd9f32a1.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/camera_ic_cate_30cd9f32a1.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/camera_ic_cate_30cd9f32a1.png 2x"
+        },
+        {
+          "name": "Camera hành trình",
+          "link": "https://fptshop.com.vn/camera/camera-hanh-trinh",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_camera_hanh_trinh_21d26729f7.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_camera_hanh_trinh_21d26729f7.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_camera_hanh_trinh_21d26729f7.png 2x"
+        },
+        {
+          "name": "Chăm sóc sức khỏe",
+          "link": "https://fptshop.com.vn/cham-soc-suc-khoe",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/cham_soc_suc_khoe_icon_cate_18761ff434.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/cham_soc_suc_khoe_icon_cate_18761ff434.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/cham_soc_suc_khoe_icon_cate_18761ff434.png 2x"
+        },
+        {
+          "name": "Máy chơi game",
+          "link": "https://fptshop.com.vn/thiet-bi-choi-game",
+          "img_src": "./Fptshop.com.vn _ Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất_files/gycb_may_choi_game_d3de134a2c.png",
+          "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/150x0/filters:format(webp):quality(75)/gycb_may_choi_game_d3de134a2c.png 1x, https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/gycb_may_choi_game_d3de134a2c.png 2x"
+        }
+      ]
     }
   ]
 }

@@ -42,6 +42,7 @@ const Footer = () => {
                             <div className="flex flex-wrap gap-1 pc:grid pc:grid-cols-4">
                                 {paymentPartner.items.map((item, idx) => (
                                     <img
+                                        key={idx}
                                         src={item.srcset.split(' ')[0]}
                                         alt={item.name}
                                         className="h-7 w-auto object-contain"
