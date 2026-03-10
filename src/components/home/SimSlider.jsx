@@ -32,7 +32,7 @@ const SimItem = ({ item }) => (
             </div>
         </div>
         <div className="flex flex-col text-textOnWhitePrimary f1-regular">
-            <span className="mb-2 line-clamp-1">{item.data}</span>ư
+            <span className="mb-2 line-clamp-1">{item.data}</span>
             <p className="line-clamp-2 whitespace-pre-line">{item.description || ''}</p>
         </div>
     </a>

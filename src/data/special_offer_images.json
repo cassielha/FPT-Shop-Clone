@@ -1,0 +1,16 @@
+{
+    "special_offers": [
+        {
+            "link": "https://fptshop.com.vn/ctkm/thu-cu-doi-moi?itm_source=home-page&itm_medium=block-special-offer&itm_campaign=khoquavang",
+            "alt": "Xuân lên đời, tậu ngay máy mới",
+            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/640x0/filters:format(webp):quality(75)/610x504_0a8666825f.png 1x, https://cdn2.fptshop.com.vn/unsafe/1240x0/filters:format(webp):quality(75)/610x504_0a8666825f.png 2x",
+            "img_src": "https://...1240w.png"
+        },
+        {
+            "link": "https://fptshop.com.vn/dien-may?itm_source=home-page&itm_medium=block-special-offer&itm_campaign=khoquavang",
+            "alt": "1 đổi 1 trọn đời, sắm trọn vẹn an tâm",
+            "img_srcset": "https://cdn2.fptshop.com.vn/unsafe/640x0/filters:format(webp):quality(75)/610x504_cc6e3b5c8f.png 1x, https://cdn2.fptshop.com.vn/unsafe/1240x0/filters:format(webp):quality(75)/610x504_cc6e3b5c8f.png 2x",
+            "img_src": "https://cdn2.fptshop.com.vn/unsafe/1240x0/filters:format(webp):quality(75)/610x504_cc6e3b5c8f.png"
+        }
+    ]
+}
