@@ -3,6 +3,7 @@ import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { useCart } from '../../hooks/useCart';
 
 const BADGE_ICONS = {
     '100 ngày 1 đổi 1': 'https://cdn2.fptshop.com.vn/svg/100_ngay_61a3a05403.svg',
@@ -21,6 +22,7 @@ const KEY_SPEC_ICONS = [
 const ProductCard = ({ product }) => {
     const badges = (product.badges || []).filter(b => BADGE_ICONS[b]);
     const keySpecs = product.key_specs || [];
+    const { addToCart } = useCart();
 
     return (
         <div className="swiper-slide Slider_slideItem5 h-auto ProductTrend_customSlider">
@@ -109,7 +111,7 @@ const ProductCard = ({ product }) => {
                     <div className="mt-auto px-3 pb-3 pt-2">
                         <button
                             className="flex w-full items-center justify-center gap-2 rounded-3xl border border-bgSpecialRedDefault px-4 py-2 text-bgSpecialRedDefault transition-all duration-300 ease-out f1-semibold hover:bg-bgSpecialRedDefault active:scale-95"
-                            onClick={() => window.addToCart?.(product.id)}
+                            onClick={() => addToCart(product.id)}
                         >
                             <svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                                 <path d="M2.5 4.25C2.5 3.83579 2.83579 3.5 3.25 3.5H3.80826C4.75873 3.5 5.32782 4.13899 5.65325 4.73299C5.87016 5.12894 6.02708 5.58818 6.14982 6.00395C6.18306 6.00134 6.21674 6 6.2508 6H18.7481C19.5783 6 20.1778 6.79442 19.9502 7.5928L18.1224 14.0019C17.7856 15.1832 16.7062 15.9978 15.4779 15.9978H9.52977C8.29128 15.9978 7.2056 15.1699 6.87783 13.9756L6.11734 11.2045L4.85874 6.95578L4.8567 6.94834C4.701 6.38051 4.55487 5.85005 4.33773 5.4537C4.12686 5.0688 3.95877 5 3.80826 5H3.25C2.83579 5 2.5 4.66421 2.5 4.25ZM9 21C10.1046 21 11 20.1046 11 19C11 17.8954 10.1046 17 9 17C7.89543 17 7 17.8954 7 19C7 20.1046 7.89543 21 9 21ZM16 21C17.1046 21 18 20.1046 18 19C18 17.8954 17.1046 17 16 17C14.8954 17 14 17.8954 14 19C14 20.1046 14.8954 21 16 21Z" />

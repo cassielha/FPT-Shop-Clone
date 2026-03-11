@@ -34,7 +34,6 @@ const Footer = () => {
                     ))}
                 </div>
 
-                {/* Partner Section (Payment + Certifications) */}
                 <div className="w-full pc:w-[12.75rem] FooterMain_footerFour">
                     {paymentPartner && (
                         <div className="px-4 pb-4 pc:px-0 pc:pb-0">

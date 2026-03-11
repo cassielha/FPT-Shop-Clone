@@ -1,10 +1,13 @@
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router';
 import hotKeysData from '../data/hot_keys.json';
 import navMenuData from '../data/nav_menu.json';
+import { useCart } from '../hooks/useCart';
 
 const Header = () => {
     const { hot_keys } = hotKeysData;
     const { nav_items } = navMenuData;
+    const { totalItems } = useCart();
 
     return (
         <header id="fptshop-header"
@@ -25,7 +28,7 @@ const Header = () => {
                             <div className="User_userWrap">
                                 <div className="User_btnControl User_active">
                                     <div className="flex gap-2">
-                                        <button
+                                         <button
                                             className="Button_root Button_btnLarge Button_blackSecondary Button_btnIcon mb:hidden User_btnUser p-2 rounded-full hover:bg-white/10"
                                             title="Đăng ký / Đăng nhập">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="white"
@@ -41,7 +44,7 @@ const Header = () => {
                             </div>
                             <Link className="Button_root Button_btnLarge Button_blackPrimary Button_btnIconLeft MiniCart_btn flex items-center gap-2 text-white"
                                 aria-label="giỏ hàng" to="/cart">
-                                <span className="relative MiniCart_cart-icon-badge" data-cart-count="3">
+                                <span className="relative MiniCart_cart-icon-badge" data-cart-count={totalItems}>
                                     <svg width="24" height="24" viewBox="0 0 24 24"
                                         xmlns="http://www.w3.org/2000/svg" fill="white">
                                         <path
