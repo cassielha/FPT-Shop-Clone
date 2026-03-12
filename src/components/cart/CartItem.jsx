@@ -39,7 +39,7 @@ const CartItem = ({ item }) => {
                             </div>
                         </div>
                         <div className="flex mb:flex-col pc:gap-6">
-                            {/* Price */}
+
                             <div className="flex gap-1 mb:mt-1 pc:flex-col pc:items-end pc:justify-center">
                                 <span className="text-textOnWhiteBrand b2-semibold pc:content-center">{item.sale_price}</span>
                                 {item.original_price && (
@@ -48,7 +48,7 @@ const CartItem = ({ item }) => {
                                     </span>
                                 )}
                             </div>
-                            {/* Quantity stepper */}
+
                             <div className="mb:mt-2 pc:flex pc:items-center">
                                 <div className="inline-flex items-center justify-center rounded-[6px] border border-[var(--neutral-gray-3)]">
                                     <button onClick={() => updateQuantity(item.id, -1)} className="h-8 w-8 flex items-center justify-center cursor-pointer hover:bg-bgGrayDefault">
@@ -60,7 +60,7 @@ const CartItem = ({ item }) => {
                                     </button>
                                 </div>
                             </div>
-                            {/* Desktop trash */}
+
                             <button onClick={() => removeFromCart(item.id)} className="mb:hidden pc:flex pc:items-center">
                                 <TrashIcon />
                             </button>

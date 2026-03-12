@@ -31,7 +31,6 @@ const ServiceCommit = ({ items = [] }) => {
                 <div
                     id="service-commit-container"
                     className="grid grid-cols-1 py-6 md:grid-cols-4 md:py-10"
-                    style={{ backgroundColor: 'white' }}
                 >
                     {items.map((item, index) => (
                         <ServiceCommitItem key={index} item={item} />

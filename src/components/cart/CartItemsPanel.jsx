@@ -6,7 +6,6 @@ const CartItemsPanel = () => {
 
     return (
         <div>
-            {/* Select-all header */}
             <div className="mb-4 flex items-center justify-between bg-bgWhiteDefault p-4 pc:rounded-[12px]">
                 <div className="flex items-center gap-3">
                     <div className="flex w-6 justify-center">
@@ -27,7 +26,7 @@ const CartItemsPanel = () => {
                     </button>
                 )}
             </div>
-            {/* Item list */}
+
             {cart.map((item) => (
                 <CartItem key={item.id} item={item} />
             ))}

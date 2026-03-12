@@ -8,10 +8,51 @@ const Header = () => {
     const { hot_keys } = hotKeysData;
     const { nav_items } = navMenuData;
     const { totalItems } = useCart();
+    const [isScrolled, setIsScrolled] = useState(false);
+    const [isHidden, setIsHidden] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
+
+    useEffect(() => {
+        let lastScrollY = window.scrollY;
+
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+
+            setIsScrolled((prev) => {
+                if (!prev && currentScrollY > 40) return true;
+                if (prev && currentScrollY <= 0) return false;
+                return prev;
+            });
+
+            setIsHidden((prev) => {
+                if (currentScrollY > lastScrollY && currentScrollY > 100) return true;
+                if (currentScrollY < lastScrollY || currentScrollY <= 100) return false;
+                return prev;
+            });
+
+            lastScrollY = currentScrollY;
+        };
+
+        window.addEventListener('resize', handleResize);
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const isDesktop = windowWidth >= 769;
+    const scrollClasses = isScrolled
+        ? (isDesktop ? 'fixMain' : 'header-mobile-fixed')
+        : '';
 
     return (
         <header id="fptshop-header"
-            className="top-0 z-[10000] bg-[linear-gradient(5deg,_#cb1c22_67.61%,_#d9503f_95.18%)] mb:sticky pc:min-w-[var(--container-content)] w-full">
+            className={`transition-transform duration-300 top-0 z-[10000] bg-[linear-gradient(5deg,_#cb1c22_67.61%,_#d9503f_95.18%)] mb:sticky pc:min-w-[var(--container-content)] ${scrollClasses} ${isHidden ? '-translate-y-full' : 'translate-y-0'}`}>
             <div id="header-main" className="HeaderMain_main">
                 <div className="container mx-auto mb:overflow-visible px-4">
                     <div className="grid grid-cols-[40px_1fr_40px] pc:grid-cols-[150px_1fr_245px] items-center py-2">
@@ -28,7 +69,7 @@ const Header = () => {
                             <div className="User_userWrap">
                                 <div className="User_btnControl User_active">
                                     <div className="flex gap-2">
-                                         <button
+                                        <button
                                             className="Button_root Button_btnLarge Button_blackSecondary Button_btnIcon mb:hidden User_btnUser p-2 rounded-full hover:bg-white/10"
                                             title="Đăng ký / Đăng nhập">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="white"
@@ -42,7 +83,7 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
-                            <Link className="Button_root Button_btnLarge Button_blackPrimary Button_btnIconLeft MiniCart_btn flex items-center gap-2 text-white"
+                            <Link className="flex items-center justify-center text-base text-white transition-all duration-300 ease-out relative rounded-3xl px-4 py-2.5 font-medium bg-bgSpecialBlackDefault hover:bg-bgSpecialBlackHover [&amp;_svg]:mr-2 [&amp;_svg]:h-6 [&amp;_svg]:w-6 MiniCart_btn MiniCart_btnMobileCard"
                                 aria-label="giỏ hàng" to="/cart">
                                 <span className="relative MiniCart_cart-icon-badge" data-cart-count={totalItems}>
                                     <svg width="24" height="24" viewBox="0 0 24 24"

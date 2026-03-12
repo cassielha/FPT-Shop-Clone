@@ -1,4 +1,7 @@
+import React, { useContext } from 'react';
 import Layout from '../layout/Layout';
+import CartContext from '../context/CartContext';
+import CartNoti from '../components/cart/CartNoti';
 import BannerSlider from '../components/home/BannerSlider';
 import HomeCardSlider from '../components/home/HomeCardSlider';
 import CategorySlider from '../components/home/CategorySlider';
@@ -23,11 +26,13 @@ import SpecialOfferData from '../data/special_offer_images.json';
 import GoldenHoursData from '../data/golden_hours.json';
 
 const Home = () => {
+    const { showNoti, setShowNoti } = useContext(CartContext);
     return (
         <>
             <title>Fptshop.com.vn | Điện thoại, Laptop, Điện máy, Gia dụng, Phụ kiện chính hãng giá tốt nhất</title>
             <link rel="icon" href="https://fptshop.com.vn/favicon.ico" type="image/x-icon" sizes="48x48"></link>
             <Layout>
+                <CartNoti show={showNoti} onClose={() => setShowNoti(false)} />
                 <div className="h-full" style={{ backgroundColor: "rgba(239, 240, 242)" }}>
                     <BannerSlider bannerData={Banner.banners} />
                     <div className='relative z-1'>
