@@ -157,14 +157,7 @@ const CountdownDisplay = ({ endTime }) => {
     );
 };
 
-// ─── Main component ──────────────────────────────────────────────────────────
 
-/**
- * GoldenHourSlider
- * @param {Object[]} sessions - Array of golden hour sessions
- *   Each session: { start_time, end_time, products[] }
- *   Each product: { name, price, original_price, discount, slots, image, url }
- */
 const GoldenHourSlider = ({ sessions = [] }) => {
     const getInitialIndex = useCallback(() => {
         const i = sessions.findIndex(s => getSessionStatus(s) === 'active');
@@ -207,10 +200,9 @@ const GoldenHourSlider = ({ sessions = [] }) => {
     if (!sessions.length) return null;
 
     return (
-        <div className="gvgs container px-0 pc:px-5">
+        <div className="gvgs container px-0 pc:px-5 min-h-[500px] pc:min-h-[570px]">
             <div className="FeatureGoldenHour_wrapper" id="gvgs">
 
-                {/* Top banners */}
                 <div className="FeatureGoldenHour_goldenHourTop">
                     <img alt="https://fptshop.com.vn/" loading="lazy" width="1240" height="120" decoding="async"
                         className="mb:hidden w-full rounded-tl-2xl rounded-tr-2xl object-contain mb:rounded-tl-[10px] mb:rounded-tr-[10px]"
@@ -225,11 +217,7 @@ const GoldenHourSlider = ({ sessions = [] }) => {
                         src="https://cdn2.fptshop.com.vn/unsafe/750x0/filters:format(webp):quality(75)/Banner_2b7a294659.png"
                     />
                 </div>
-
-                {/* Red section */}
                 <div className="relative overflow-hidden pc:rounded-b-xl pc:px-3 pc:pb-4" style={{ background: 'rgb(187, 4, 22)' }}>
-
-                    {/* Date tabs */}
                     <div className="FeatureGoldenHour_goldenHourDate">
                         <ul className="FeatureGoldenHour_listDate">
                             {sessions.map((session, idx) => {
@@ -259,7 +247,6 @@ const GoldenHourSlider = ({ sessions = [] }) => {
                         </ul>
                     </div>
 
-                    {/* Products */}
                     <div className="relative min-h-[347px] rounded-bl-xl rounded-br-xl bg-bgWhiteDefault pc:min-h-[425px]">
                         {activeSession?.products?.length ? (
                             <div>

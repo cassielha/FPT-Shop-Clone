@@ -73,7 +73,7 @@ const HomeCardSlider = ({ data, slidesPerView = 2 }) => {
                             <div className="swiper">
                                 <div className="swiper-wrapper ">
                                     {data.items.map((item, index) => (
-                                        <div key={index} className="swiper-slide Slider_slideItem3 h-auto">
+                                        <div key={index} className={`swiper-slide h-auto shrink-0 !w-full ${slidesPerView === 3 ? 'pc:!w-1/3' : 'pc:!w-1/2'}`}>
                                             <HomeCardItem item={item} />
                                         </div>
                                     ))}

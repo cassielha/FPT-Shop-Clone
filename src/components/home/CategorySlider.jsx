@@ -22,7 +22,7 @@ const CategoryItem = ({ item }) => {
                 />
                 <p
                     title={item.name}
-                    className="line-clamp-2 pt-2 text-textOnWhitePrimary f1-medium pc:b1-medium"
+                    className="line-clamp-2 pt-2 text-textOnWhitePrimary f1-medium pc:b1-medium min-h-[44px] pc:min-h-[56px]"
                 >
                     {item.name}
                 </p>
@@ -77,7 +77,7 @@ const CategorySlider = ({ data }) => {
     if (!data.items?.length) return null;
 
     return (
-        <div className="pc:container pc:px-5 pc:py-2.5">
+        <div className="pc:container pc:px-5 pc:py-2.5 min-h-[280px] pc:min-h-[300px]">
             <div className="pc:rounded-2xl" style={{ backgroundColor: 'white' }}>
                 <div className="py-3 pc:px-6 pc:py-5">
                     <p className="mb-3 text-textOnWhitePrimary mb:pl-4 pc:mb-5 pc:h6-semibold l7-semibold">
