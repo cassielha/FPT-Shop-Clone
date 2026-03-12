@@ -297,3 +297,42 @@
     background-color: var(--neutral-gray-4);
     border-radius: 1rem
 }
+
+.scroll-top_btn-scrollUp {
+    bottom: 20px;
+    float: right;
+    height: 40px;
+    opacity: 1;
+    position: fixed;
+    right: 29px;
+    transition: all .3s;
+    width: 40px;
+    z-index: 10000
+}
+
+.scroll-top_btn-scrollUp button {
+    background: #fff;
+    border-radius: 2.4rem;
+    height: 100%;
+    position: relative;
+    width: 100%
+}
+
+.scroll-top_btn-scrollUp button>span {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.scroll-top_btn-scrollUp button svg {
+    display: flex
+}
+
+@media screen and (max-width:768px) {
+    .scroll-top_btn-scrollUp {
+        display: none
+    }
+}

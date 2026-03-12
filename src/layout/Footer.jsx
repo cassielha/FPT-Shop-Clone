@@ -8,6 +8,7 @@ import FooterCopyright from '../components/footer/FooterCopyright';
 import FooterTopSection from '../components/footer/FooterTopSection';
 import FooterSocialHotline from '../components/footer/FooterSocialHotline';
 import FooterMoreInfo from '../components/footer/FooterMoreInfo';
+import FooterScrollToTopButton from '../components/footer/FooterScrollToTopButton';
 
 const Footer = () => {
     const { social_links } = socialLinksData;
@@ -75,6 +76,7 @@ const Footer = () => {
             <FooterEcoSystem />
 
             <FooterCopyright />
+            <FooterScrollToTopButton />
 
         </footer>
     );

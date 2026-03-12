@@ -8,8 +8,9 @@ import './assets/css/scroll_top.css';
 import './assets/css/badge.css';
 import './assets/css/categories.css';
 import './assets/css/header_web.css';
-import './assets/css/custom_slider.css';
 import './assets/css/slider.css';
+import './assets/css/custom_slider.css';
+
 import './assets/css/feature.css';
 import './assets/css/article.css';
 import './assets/css/accordion.css';

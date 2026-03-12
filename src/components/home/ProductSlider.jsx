@@ -165,8 +165,8 @@ const ProductSlider = ({ data }) => {
 
                 <div className="relative">
                     <div className="Slider_sliderWrapper mb:-mx-4">
-                        <div className="swiper !overflow-hidden px-4 pc:px-0">
-                            <div className="swiper-wrapper !flex !flex-row">
+                        <div className="swiper px-4 pc:px-0">
+                            <div className="swiper-wrapper">
                                 {data.products.map((product, index) => (
                                     <ProductCard key={product.id ?? index} product={product} />
                                 ))}
