@@ -128,7 +128,7 @@ const LnySaleOff = ({ items = [] }) => {
                 </div>
 
                 <div className="relative mb:order-1 mb:mb-3 mb:w-full mb:overflow-hidden pc:pl-3">
-                    <div className="Slider_sliderWrapper mb:-mx-4 mx-0">
+                    <div className="swiper-wrapper mb:-mx-4 mx-0">
                         <div className="swiper !overflow-hidden px-4 pc:px-0" ref={swiperElRef}>
                             <div className="swiper-wrapper !flex !flex-row" id="lny-sale-off-categories-container">
                                 {entry.categories.map((cat, index) => (

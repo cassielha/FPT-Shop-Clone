@@ -127,7 +127,7 @@ const SimSlider = ({ categories = [] }) => {
 
                 <div className="min-h-[212px] rounded-b-2xl bg-white pb-4 pl-4 pt-3 mb:overflow-hidden pc:min-h-[246px] pc:px-6 pc:pb-6 pc:pt-4">
                     <div className="Tabs_tabContainer pc:mb-4 mb-3 block relative scrollbar-none">
-                        <div className="ScrollSwiper_scrollWrapper">
+                        <div className="swiper-wrapper">
                             <div className="swiper list-thumb-specs w-full items-center border-y border-none z-9" ref={tabSwiperElRef}>
                                 <div className="swiper-wrapper" id="sim-fpt-tabs-container">
                                     {categories.map((category, index) => (
@@ -149,7 +149,7 @@ const SimSlider = ({ categories = [] }) => {
                     </div>
 
                     <div className="animate-fadein">
-                        <div className="Slider_sliderWrapper mb:-mx-4" id="sim-fpt-items-container">
+                        <div className="swiper-wrapper mb:-mx-4" id="sim-fpt-items-container">
                             <div className="swiper !overflow-hidden px-4 pc:px-0" ref={itemSwiperElRef}>
                                 <div className="swiper-wrapper !flex !flex-row">
                                     {activeCategory?.items.map((item, index) => (

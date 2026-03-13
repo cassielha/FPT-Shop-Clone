@@ -31,10 +31,6 @@ const CategoryItem = ({ item }) => {
     );
 };
 
-/**
- * CategorySlider
- * @param {Object} data - Danh mục sản phẩm
- */
 const CategorySlider = ({ data }) => {
     const wrapperRef = useRef(null);
     const swiperRef = useRef(null);
@@ -83,7 +79,7 @@ const CategorySlider = ({ data }) => {
                     <p className="mb-3 text-textOnWhitePrimary mb:pl-4 pc:mb-5 pc:h6-semibold l7-semibold">
                         {data.name}
                     </p>
-                    <div className="Slider_sliderWrapper" ref={wrapperRef}>
+                    <div className="swiper-wrapper" ref={wrapperRef}>
                         <div className="swiper mb:pl-4 !overflow-hidden">
                             <div className="swiper-wrapper !flex !flex-row !flex-wrap">
                                 {data.items.map((item, index) => (

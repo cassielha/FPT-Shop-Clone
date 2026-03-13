@@ -164,7 +164,7 @@ const ProductSlider = ({ data }) => {
                 </div>
 
                 <div className="relative">
-                    <div className="Slider_sliderWrapper mb:-mx-4">
+                    <div className="swiper-wrapper mb:-mx-4">
                         <div className="swiper px-4 pc:px-0">
                             <div className="swiper-wrapper">
                                 {data.products.map((product, index) => (
