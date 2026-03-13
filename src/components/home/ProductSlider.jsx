@@ -3,7 +3,7 @@ import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { useCart } from '../../hooks/useCart';
+import { useCartActions } from '../../hooks/useCart';
 
 const BADGE_ICONS = {
     '100 ngày 1 đổi 1': 'https://cdn2.fptshop.com.vn/svg/100_ngay_61a3a05403.svg',
@@ -22,7 +22,7 @@ const KEY_SPEC_ICONS = [
 const ProductCard = ({ product }) => {
     const badges = (product.badges || []).filter(b => BADGE_ICONS[b]);
     const keySpecs = product.key_specs || [];
-    const { addToCart } = useCart();
+    const { addToCart } = useCartActions();
 
     return (
         <div className="swiper-slide Slider_slideItem5 h-auto ProductTrend_customSlider">
