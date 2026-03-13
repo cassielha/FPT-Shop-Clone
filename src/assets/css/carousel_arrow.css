@@ -11,17 +11,17 @@
     transition-timing-function: cubic-bezier(.4, 0, .2, 1)
 }
 
-/* .CarouselArrow_preArrowDefault :hover {
+.CarouselArrow_preArrowDefault :hover {
     padding: .15rem
-} */
+}
 
 .CarouselArrow_prevArrowLarge {
     padding: .5rem
 }
 
-/* .CarouselArrow_prevArrowLarge :hover {
+.CarouselArrow_prevArrowLarge :hover {
     padding: .75rem
-} */
+}
 
 .CarouselArrow_prevArrowIntermediate {
     padding: .5rem

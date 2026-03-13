@@ -1,5 +1,14 @@
+import { scan } from 'react-scan';
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
+
+// React scan
+scan({
+  enabled: true,
+});
+
+
 import App from './App.tsx'
 
 import './assets/css/tailwind_output.css'

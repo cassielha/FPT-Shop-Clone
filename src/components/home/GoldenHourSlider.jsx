@@ -1,16 +1,23 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-// ─── Helpers ────────────────────────────────────────────────────────────────
 
 const pad = (n) => String(n).padStart(2, '0');
 
 const toDateLabel = (isoString) => {
     const d = new Date(isoString);
     return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}`;
+};
+
+const isToday = (isoString) => {
+    const d = new Date(isoString);
+    const now = new Date();
+    return d.getDate() === now.getDate() &&
+        d.getMonth() === now.getMonth() &&
+        d.getFullYear() === now.getFullYear();
 };
 
 const getSessionStatus = (session) => {
@@ -21,8 +28,6 @@ const getSessionStatus = (session) => {
     if (now < start) return 'upcoming';
     return 'ended';
 };
-
-// ─── Sub-components ──────────────────────────────────────────────────────────
 
 const BoltSVG = () => (
     <svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ scale: '0.8' }}>
@@ -56,7 +61,6 @@ const ProductCard = ({ product }) => {
     return (
         <div className="swiper-slide slider-item-5 h-auto py-1 mb:mr-2.5 mb:w-[55%]">
             <div className="group relative rounded-[10px] hover:shadow pc:max-w-[226px]">
-                {/* Image */}
                 <div className="relative mb-3 h-[165px] pc:mb-4 pc:h-[204px]">
                     <div className="relative flex items-center justify-between px-2">
                         <a title={name} className="flex-1" href={url}>
@@ -74,7 +78,6 @@ const ProductCard = ({ product }) => {
                     </div>
                 </div>
 
-                {/* Price */}
                 <div className="px-3 mb:px-2">
                     <div className="mb-2 flex justify-center">
                         <div className="relative aspect-[3.863/1] w-full md:h-[50px] md:w-[209px] mb:h-[42px]">
@@ -96,12 +99,9 @@ const ProductCard = ({ product }) => {
                         </div>
                     </div>
 
-                    {/* Name */}
                     <div className="mb-2 line-clamp-2 w-full mb:h-10">
                         <p className="text-left text-textOnWhitePrimary b2-regular mb:h-9 pc:h-10" style={{ wordBreak: 'break-word' }}>{name}</p>
                     </div>
-
-                    {/* CTA */}
                     <div className="flex justify-center pb-3 pc:pb-4">
                         <a className="flex-1" href={url}>
                             <button className="flex items-center justify-center text-base text-white transition-all duration-300 ease-out relative rounded-3xl px-4 font-medium bg-bgSpecialRedDefault hover:bg-bgSpecialRedHover w-full py-1.5 b1-medium pc:mb-[3px] pc:px-[13.5px] pc:py-2.5 pc:h-[48.1px] mb:h-7 mb:f1-medium">
@@ -114,8 +114,6 @@ const ProductCard = ({ product }) => {
         </div>
     );
 };
-
-// ─── Countdown hook ──────────────────────────────────────────────────────────
 
 const useCountdown = (endTime) => {
     const [timeLeft, setTimeLeft] = useState({ h: 0, m: 0, s: 0 });
@@ -234,10 +232,23 @@ const GoldenHourSlider = ({ sessions = [] }) => {
                                         onClick={() => setActiveIdx(idx)}
                                     >
                                         <div className="FeatureGoldenHour pc:px-[42px]">
-                                            {isActive ? `Đang diễn ra ${dateLabel}` : dateLabel}
+                                            {isActive ? (
+                                                status === 'active' ? `Đang diễn ra ${dateLabel}` :
+                                                status === 'upcoming' ? `Sắp diễn ra ${dateLabel}` :
+                                                `Đã kết thúc ${dateLabel}`
+                                            ) : dateLabel}
                                         </div>
                                         {isActive ? (
-                                            <p>Kết thúc trong: <CountdownDisplay endTime={session.end_time} /></p>
+                                            status === 'ended' ? (
+                                                <p className="whitespace-nowrap">Đã kết thúc</p>
+                                            ) : (status === 'active' || isToday(session.start_time)) ? (
+                                                <p>
+                                                    {status === 'active' ? 'Kết thúc trong: ' : 'Bắt đầu trong: '}
+                                                    <CountdownDisplay endTime={status === 'active' ? session.end_time : session.start_time} />
+                                                </p>
+                                            ) : (
+                                                <p className="whitespace-nowrap">{statusText}</p>
+                                            )
                                         ) : (
                                             <p className="whitespace-nowrap">{statusText}</p>
                                         )}

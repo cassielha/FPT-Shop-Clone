@@ -1,4 +1,4 @@
-import { createContext, useState, useCallback, useEffect } from 'react';
+import { createContext, useState, useEffect } from 'react';
 import { findProductById, calculateSummary } from '../utils/cartHelpers';
 
 const CartContext = createContext(null);
@@ -23,7 +23,7 @@ export const CartProvider = ({ children }) => {
         localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(cart));
     }, [cart]);
 
-    const addToCart = useCallback((productId) => {
+    const addToCart = ((productId) => {
         const product = findProductById(productId);
         if (!product) {
             console.error('[Cart] Product not found:', productId);
@@ -41,9 +41,9 @@ export const CartProvider = ({ children }) => {
         });
 
         setShowNoti(true);
-    }, []);
+    });
 
-    const updateQuantity = useCallback((id, delta) => {
+    const updateQuantity = ((id, delta) => {
         setCart((prev) => {
             const index = prev.findIndex(item => item.id === id);
             if (index === -1) return prev;
@@ -52,13 +52,13 @@ export const CartProvider = ({ children }) => {
             updated[index] = { ...updated[index], quantity: Math.max(1, newQty) };
             return updated;
         });
-    }, []);
+    });
 
-    const removeFromCart = useCallback((id) => {
+    const removeFromCart = ((id) => {
         setCart((prev) => prev.filter((item) => item.id !== id));
-    }, []);
+    });
 
-    const toggleSelectItem = useCallback((id) => {
+    const toggleSelectItem = ((id) => {
         setCart((prev) => {
             const index = prev.findIndex(item => item.id === id);
             if (index === -1) return prev;
@@ -66,15 +66,15 @@ export const CartProvider = ({ children }) => {
             updated[index] = { ...updated[index], selected: !updated[index].selected };
             return updated;
         });
-    }, []);
+    });
 
-    const selectAllItems = useCallback((selected) => {
+    const selectAllItems = ((selected) => {
         setCart((prev) => prev.map((item) => ({ ...item, selected })));
-    }, []);
+    });
 
-    const removeSelectedItems = useCallback(() => {
+    const removeSelectedItems = (() => {
         setCart((prev) => prev.filter((item) => !item.selected));
-    }, []);
+    });
 
     const totalItems = cart.length;
     const selectedCount = cart.filter((i) => i.selected).length;

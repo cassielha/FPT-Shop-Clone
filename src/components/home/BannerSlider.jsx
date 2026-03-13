@@ -46,12 +46,12 @@ const BannerSlider = ({ bannerData = [] }) => {
     const [currentIndex, setCurrentIndex] = useState(initialIndex !== -1 ? initialIndex : 0);
     const autoNextRef = useRef(null);
 
-    const startAutoNext = useCallback(() => {
+    const startAutoNext = () => {
         stopAutoNext();
         autoNextRef.current = setInterval(() => {
             setCurrentIndex(prev => (prev + 1) % bannerData.length);
         }, 5000);
-    }, [bannerData.length]);
+    };
 
     const stopAutoNext = () => {
         if (autoNextRef.current) {
@@ -63,7 +63,7 @@ const BannerSlider = ({ bannerData = [] }) => {
     useEffect(() => {
         if (bannerData.length > 1) startAutoNext();
         return () => stopAutoNext();
-    }, [bannerData.length, startAutoNext]);
+    }, [bannerData.length]);
 
     const handlePrev = () => {
         stopAutoNext();
